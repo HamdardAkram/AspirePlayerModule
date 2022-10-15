@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AspirePlayerModule"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "A player information library."
 
   
