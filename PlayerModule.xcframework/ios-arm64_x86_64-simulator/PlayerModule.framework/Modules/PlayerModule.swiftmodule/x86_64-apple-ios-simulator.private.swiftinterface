@@ -3,60 +3,26 @@
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PlayerModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
+import CoreML
 import Foundation
+import PieCharts
 @_exported import PlayerModule
 import SDWebImage
 import SVProgressHUD
 import Security
 import Swift
+import SwiftUI
 import UIKit
+import VideoToolbox
+import Vision
 import _Concurrency
 import _StringProcessing
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ScoreboardBanner : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocalizationSystem : ObjectiveC.NSObject {
+  public class var sharedInstance: PlayerModule.LocalizationSystem {
+    get
+  }
+  public func setLanguage(languageCode: Swift.String)
   @objc deinit
-}
-@_hasMissingDesignatedInitializers final public class AspireApi {
-  public static let playerManager: PlayerModule.PlayerManager
-  @objc deinit
-}
-public protocol SeasonTeamsViewControllerDelegate : AnyObject {
-  func viewPosts(forPlayer: Swift.String)
-  func fololow(playerId: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SeasonTeamsViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.SeasonTeamsViewControllerDelegate?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.SeasonTeamsViewController
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-extension PlayerModule.SeasonTeamsViewController : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
-}
-@_hasMissingDesignatedInitializers public class PlayerManager {
-  @objc deinit
-}
-extension Swift.KeyedDecodingContainer {
-  public func decodeSafelyIfPresent<T>(_ key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable
-  public func decodeSafelyIfPresent<T>(_ type: T.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable
-}
-public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
-  public let value: Base?
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct People : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
-}
-public struct PlayerCoaches : Swift.Codable {
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
 }
 extension Swift.String {
   public var length: Swift.Int {
@@ -74,4 +40,59 @@ extension Swift.String {
   public var isContainLetter: Swift.Bool {
     get
   }
+}
+public struct People : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct PlayerCoaches : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@available(iOS 14.0, *)
+public struct BackgroundRemoval {
+  public init()
+  public func removeBackground(image: UIKit.UIImage, maskOnly: Swift.Bool = false) -> UIKit.UIImage
+}
+extension Swift.KeyedDecodingContainer {
+  public func decodeSafelyIfPresent<T>(_ key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable
+  public func decodeSafelyIfPresent<T>(_ type: T.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable
+}
+public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
+  public let value: Base?
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ScoreboardBanner : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) public class func getScoreboardView() -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class AspireApi {
+  public static let playerManager: PlayerModule.PlayerManager
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PlayerManager {
+  @objc deinit
+}
+public protocol SeasonTeamsViewControllerDelegate : AnyObject {
+  func viewPosts(forPlayer: Swift.String)
+  func follow(playerId: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SeasonTeamsViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.SeasonTeamsViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.SeasonTeamsViewController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PlayerModule.SeasonTeamsViewController : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+extension UIKit.UIImage {
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
