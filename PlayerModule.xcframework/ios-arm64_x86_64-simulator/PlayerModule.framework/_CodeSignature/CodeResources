@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/DHh+a1KmdfnMs9QZGFmR/kXwYQ=
+		71TZ5jr5wgPAXTEEplcJhGrMzmg=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -180,13 +180,29 @@
 		<data>
 		tkgF5pxT7RlO+9uypQti9obolyA=
 		</data>
+		<key>LineUpCollectionViewCell.nib</key>
+		<data>
+		jntUsbDR5un9W0jcCP7MzEk4F50=
+		</data>
+		<key>LineUpSectionHeaderView.nib</key>
+		<data>
+		xbASX26jUX2sdpPX/GcvBNsNbys=
+		</data>
+		<key>MatchDetailFooterView.nib</key>
+		<data>
+		VrQ900HFdw5xrF7lzrePAYJQ8Ik=
+		</data>
+		<key>MatchDetailHeaderView.nib</key>
+		<data>
+		AOyJxg5sZFRvX54OybspcWJffIQ=
+		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DRjYNZxD4jWnFj9cGZ1v8frPEYE=
+		XWUGa6ieyPzxPh1pLXk7Q3k+mGA=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tCmXbYYiwZOqy3Cdexf5q4/P+FY=
+		8tFONQW6R0+UolP9HxuLmUX7OkA=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -194,19 +210,19 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tCmXbYYiwZOqy3Cdexf5q4/P+FY=
+		8tFONQW6R0+UolP9HxuLmUX7OkA=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fvdCFYnx4hQf6Qe+iJ8JJchUVik=
+		OT7mgyjtypVrx8IzcYBIsjgpyVw=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DRjYNZxD4jWnFj9cGZ1v8frPEYE=
+		XWUGa6ieyPzxPh1pLXk7Q3k+mGA=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		k6uRl8womVglfuUSoH8tB6EG1yw=
+		LFqn2RFa85s4bRpKrk17pxWDfcE=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -214,15 +230,19 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		k6uRl8womVglfuUSoH8tB6EG1yw=
+		LFqn2RFa85s4bRpKrk17pxWDfcE=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PFSDtE2aUhDjeO/H9Ml0W04fgrU=
+		H0isKf6tqMk72DyEQ0I78aKKOJY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		bNv9Pqn/0V6gPrJNt3ckVXcIPUw=
+		</data>
+		<key>PitchCollectionViewCell.nib</key>
+		<data>
+		C2ha77B334Vb0tBiE5CXIXMPj4k=
 		</data>
 		<key>PlayerInfoCollectionViewCell.nib</key>
 		<data>
@@ -350,7 +370,7 @@
 		</data>
 		<key>TabCollectionViewCell.nib</key>
 		<data>
-		9U/kforYLjUlkcBlkiPJOsulf34=
+		fxQjs8fDTcQeu5V7Y8H3OzfnPZI=
 		</data>
 		<key>TeamAgainstCollectionViewCell.nib</key>
 		<data>
@@ -396,17 +416,33 @@
 		<data>
 		EiCFXEySX62JYPppRc/yp70y0MQ=
 		</data>
+		<key>TeamsH2HCollectionViewCell.nib</key>
+		<data>
+		DHIJCr+VNBPuzZEIiPZsJ23iikg=
+		</data>
+		<key>TimelineGoalCollectionViewCell.nib</key>
+		<data>
+		jnhu+oFUcv92oUChylDOMn8+q9U=
+		</data>
 		<key>TitlesCollectionViewCell.nib</key>
 		<data>
 		yVIqZOQCBLL7Vgn4MBDPo9M3188=
 		</data>
 		<key>Tournament.storyboardc/Info.plist</key>
 		<data>
-		kep2UpkSMZuSEabrlfeGgyms2aU=
+		4q7oE5tyoTtCalG5CbTH4XjeXQA=
+		</data>
+		<key>Tournament.storyboardc/MatchDetailViewController.nib</key>
+		<data>
+		FkGcrsDczPVOtc/oOTi9uHE7dnQ=
 		</data>
 		<key>Tournament.storyboardc/TournamentDetailViewController.nib</key>
 		<data>
 		VAEPzXP0ZpzTmOTzM/CEbmvdZUs=
+		</data>
+		<key>Tournament.storyboardc/V2R-s0-UPv-view-OKc-1p-DcM.nib</key>
+		<data>
+		gnBlHkwb9HUt+esRUSeg1a1GL5c=
 		</data>
 		<key>Tournament.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
@@ -437,7 +473,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PvYRaKNkpXiLjkWAHdQnqBXizIk=
+			GmIqtNZuPZFQwyPUa9PYYSpcP/U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -455,7 +491,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			25T7p0VwWm9K1I8m0ZE9HyM+gPg=
+			XorTmM0hgfR7fO3zvzqwSDCeoKk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -474,7 +510,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y7xhXKExm68DuL64W70fTJC9wxI34fCo/aeA/tt86Ro=
+			wq7rCvi6cQeAfP4kaYhnVUo/YLZL1isftxl3TdPp9Ug=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -764,18 +800,46 @@
 			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
 			</data>
 		</dict>
+		<key>LineUpCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YbYbN3m+fSm4bi6aFXG34OxGmtkpZV5JAXm5P0Vcqt4=
+			</data>
+		</dict>
+		<key>LineUpSectionHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cyoBEK1pF7VhKMxoYsdtWxrKXmthV9wFUnXt0t2LYA4=
+			</data>
+		</dict>
+		<key>MatchDetailFooterView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CxgvwQFe5qwa6vVb/7gLxVVfO3pLBOj3pj3QGuUCkyE=
+			</data>
+		</dict>
+		<key>MatchDetailHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L5Z6RxKcwpC4K4fWt8EYeZhPnUq/niT+iQRVMV9IgzU=
+			</data>
+		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EYEkT4/WtvDGkdVvBUPzE1BAgl85Trl4XGIv8c2I038=
+			l2Bf1nwR8GBvZPq9DtOu+lxAIbk9t/lF1Mekb2EFInI=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PnEoDP5xXaaE/ppmUrvsJw4473GIxdXQAkalF3Atpik=
+			FYDLy6e19dhqF0GbgnkneIQdhkahZurnu4yfPqwlMMc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -789,28 +853,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PnEoDP5xXaaE/ppmUrvsJw4473GIxdXQAkalF3Atpik=
+			FYDLy6e19dhqF0GbgnkneIQdhkahZurnu4yfPqwlMMc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0dUJxVBlmybTFXccgLjvEJ3Dk+VsNjLZQayd9r+n3PE=
+			6zKy9BBLBx8kWjk3yN2DHwisXoOlTRzdTsO3yTnl4cc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EYEkT4/WtvDGkdVvBUPzE1BAgl85Trl4XGIv8c2I038=
+			l2Bf1nwR8GBvZPq9DtOu+lxAIbk9t/lF1Mekb2EFInI=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S1d1UEe2VgcafS8CFPqdxI39dbforQOKajmft34Wsn4=
+			QeMB/IG/IM1DawaUatT4bKtpj8ED2kiIEcOhcHh0/fQ=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -824,14 +888,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S1d1UEe2VgcafS8CFPqdxI39dbforQOKajmft34Wsn4=
+			QeMB/IG/IM1DawaUatT4bKtpj8ED2kiIEcOhcHh0/fQ=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c1WIh/X6z+buSosVQl6rnfsnbGPXo/qRF2mQpU8ApkY=
+			B2rGN4xbWsB7/FNy9Oht6Y8EHgSFVPJ/RADBHljsMZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -839,6 +903,13 @@
 			<key>hash2</key>
 			<data>
 			Krri/FoVQFIyOLoszgWcetJm1sTkqaysCcHLqtbx04M=
+			</data>
+		</dict>
+		<key>PitchCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rpSzNXhKroGLD0LHkgd6pQJ9n6AxFN9SSxO4FFB4P8o=
 			</data>
 		</dict>
 		<key>PlayerInfoCollectionViewCell.nib</key>
@@ -1062,7 +1133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			69/U7/7AvlCTMl0ord60yH7hBFOdIxPmXgXMRvxaaBY=
+			HmGC4KtvnAvfOnDwt5csOkN5mIFpVMNd4brXpR5tarQ=
 			</data>
 		</dict>
 		<key>TeamAgainstCollectionViewCell.nib</key>
@@ -1142,6 +1213,20 @@
 			fT8Vvon7Nekl/pVJN2VkRpWbQIK2firD5o4tKWtTetM=
 			</data>
 		</dict>
+		<key>TeamsH2HCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cSH4AWh6pcyB3k1JI6pCZ1D84FeB9qxycUO7wOzZ+xs=
+			</data>
+		</dict>
+		<key>TimelineGoalCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NFQo2krOHCHwOZTV6tqc+L0rNlpQ9uuuU+L8peI8ZKw=
+			</data>
+		</dict>
 		<key>TitlesCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1153,7 +1238,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			20CzRun9p0nWZezT2yfzQldQDvf/TffvYWsT0MDUw4A=
+			ZQntAT0S4un1e0hZyoTTPmfxMDdNgaDL721ylOd5Th8=
+			</data>
+		</dict>
+		<key>Tournament.storyboardc/MatchDetailViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bB3QSqz6Sf1fh95lOshe5nwwJxFEEvXXWCiuraX9d60=
 			</data>
 		</dict>
 		<key>Tournament.storyboardc/TournamentDetailViewController.nib</key>
@@ -1161,6 +1253,13 @@
 			<key>hash2</key>
 			<data>
 			1QT/JQRtcnz4iL9M6sqCjE7keyRxOTx8OWBmz922X48=
+			</data>
+		</dict>
+		<key>Tournament.storyboardc/V2R-s0-UPv-view-OKc-1p-DcM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3V3IuF86CpeGog3xNfzA/h7Fdvs4WfMjubY3g9EQZPc=
 			</data>
 		</dict>
 		<key>Tournament.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
@@ -1204,7 +1303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjbzvDWZwwFDweVf1/H+alcHihSn7uZmeJV6sVntglY=
+			8bBzmeNW8PbT7RwOoZ+cQIwXQMhiGHMt3DFRGBgHKEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1222,7 +1321,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GE/hme3/Gw/tbSxMC2i6gRW1BzGWrI+exomM0PcsiUs=
+			x/59O5uU8c4RiwYOs1FeB2V7B4dclehTbGSWzKNhnfY=
 			</data>
 			<key>optional</key>
 			<true/>

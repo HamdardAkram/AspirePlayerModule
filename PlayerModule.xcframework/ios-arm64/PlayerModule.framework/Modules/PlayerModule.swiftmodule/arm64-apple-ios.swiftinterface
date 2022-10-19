@@ -76,7 +76,6 @@ public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ScoreboardBanner : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) public class func getScoreboardView() -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -89,8 +88,8 @@ public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
   @objc deinit
 }
 public protocol SeasonTeamsViewControllerDelegate : AnyObject {
-  func viewPosts(forPlayer: Swift.String)
-  func follow(playerId: Swift.String)
+  func viewPosts(forPlayer: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String)
+  func follow(playerId: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SeasonTeamsViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.SeasonTeamsViewControllerDelegate?
