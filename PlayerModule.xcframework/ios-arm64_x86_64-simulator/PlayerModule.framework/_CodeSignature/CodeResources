@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OHacvFzlZVfQLALcWCj+p0v3JaQ=
+		hmaucrRZ3UbvSij1bkRsldga2AI=
 		</data>
 		<key>LaLabsu2netp.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		h4ydw5lTzXVKqGIE06pfj0I1u6A=
+		Arkbe5p+Hmg+Ll1SjAxepgsJe6s=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -214,11 +214,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Eeevm210hR2iJZ41N0KTdyXP56g=
+		TW2uurDSTJNYJOPyr8Bz6uv0+vQ=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		h4ydw5lTzXVKqGIE06pfj0I1u6A=
+		Arkbe5p+Hmg+Ll1SjAxepgsJe6s=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jdIOF2VfI20HwPf/yFzIDoHwjO4=
+		DrMNPuTlRJQaNCq2EBI+kpFGpkY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -275,6 +275,22 @@
 		<key>Qatar2022-Medium.otf</key>
 		<data>
 		3M5zQ81HdesEOu8BvH/eI+giHS0=
+		</data>
+		<key>Quicksand Bold 700.ttf</key>
+		<data>
+		Fp4He7ciL58LUZh0OgDThm8zG9g=
+		</data>
+		<key>Quicksand Light 300.ttf</key>
+		<data>
+		tJR+uh7uo6ON246icu+7vqYoUjQ=
+		</data>
+		<key>Quicksand Medium 500.ttf</key>
+		<data>
+		47OqRWwuV1g9onk+RFqN81ynuDw=
+		</data>
+		<key>Quicksand Regular 400.ttf</key>
+		<data>
+		nHCm0oMAyG3xllMddEtJ/sqeY1o=
 		</data>
 		<key>Roboto-Black.ttf</key>
 		<data>
@@ -394,7 +410,7 @@
 		</data>
 		<key>TeamCollectionViewCell.nib</key>
 		<data>
-		FPqZlGWqRP4zhJC3ZJmwumRoIC4=
+		vgNDpUVf1JTuc84weSsR4imGfFA=
 		</data>
 		<key>Teams.storyboardc/Info.plist</key>
 		<data>
@@ -438,7 +454,7 @@
 		</data>
 		<key>TitlesCollectionViewCell.nib</key>
 		<data>
-		yVIqZOQCBLL7Vgn4MBDPo9M3188=
+		uYPNfwGe897JrY8dgDixq7Alvcc=
 		</data>
 		<key>Tournament.storyboardc/Info.plist</key>
 		<data>
@@ -485,7 +501,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yUbM7BKjM4PYxEm1H9QxcLJ7izs=
+			uI7ztLI/uhq7VriPx3Kl1h8RYN0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -503,7 +519,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RI09aYf19Gu4izpVnhIvTIj9v1Y=
+			NEgsSld+UnbtUiF2+AH/VDM+dFU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -844,7 +860,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L8nZjq6IVLAMukg+h5WYBJ2+tHxyW/dYDUev3Z1kO5s=
+			Ycd6Xwax8Pk+WcDDVM/6XJP7iwuAFlNwpBINaAaTvks=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -872,14 +888,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6gw9mDdgzduhy87GSqifOT3GjhayoWSno8OUHSZotUc=
+			BImLkrhRwuPU9kDr7Y4DRAoRKRUMbCort1F/9aTKSqo=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L8nZjq6IVLAMukg+h5WYBJ2+tHxyW/dYDUev3Z1kO5s=
+			Ycd6Xwax8Pk+WcDDVM/6XJP7iwuAFlNwpBINaAaTvks=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -907,7 +923,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ys3OueN7Clg4p7e9y8uMQl1C5AC9FOKAHBjxIT630oU=
+			mivFYu12LbDAAM/uGke7IoDAgiq2m6aPkw9G5KB1TQA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -978,6 +994,34 @@
 			<key>hash2</key>
 			<data>
 			yS6M5x9IS1BeEXVSEql58v4MFh2OsqdmOaw2tZ0SHTw=
+			</data>
+		</dict>
+		<key>Quicksand Bold 700.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jxRKL+fPjzSjXSkDdv0YkupekXIlFKnoOvUrPdLZjXU=
+			</data>
+		</dict>
+		<key>Quicksand Light 300.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lsc9UQF0o2NnDwFdj6vo/UduXs9Qi3PkWUX50GKpeQ8=
+			</data>
+		</dict>
+		<key>Quicksand Medium 500.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6B9izhJkRQs7shXU4/3bmBz+TzBM3v+RefjuJb9FRec=
+			</data>
+		</dict>
+		<key>Quicksand Regular 400.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SFOT1vmertDiEiyoZ6sL1tjCRkjTCH70czdA8UslJzc=
 			</data>
 		</dict>
 		<key>Roboto-Black.ttf</key>
@@ -1187,7 +1231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zC2oQ/2DD10pcbSlx6Mt1PKCqzg2r71injCLGsJmxEk=
+			HVAAY667D+5rsXgorFJre2ZOUE8kG3fAX523fR++TQ8=
 			</data>
 		</dict>
 		<key>Teams.storyboardc/Info.plist</key>
@@ -1264,7 +1308,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ULNQpj15kqkPhaH1pv++obUrhbdCoqxtC7bW13RUS9s=
+			jDzZKn/ASDdaOOkSGnANFTbsQbXjWfpUT+gNq2tLaXk=
 			</data>
 		</dict>
 		<key>Tournament.storyboardc/Info.plist</key>
@@ -1336,7 +1380,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3sy8xO2JkGgc2OadZP/pAA/PTppyyoo6rwAAS0HVwQ=
+			vT5iaklLhdthMLMDnv+oF/eWWegkMhRNLpHyTfF5Uy8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1354,7 +1398,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zFUWEI67IbIAiU+GuV7lFDSDeNHq9zAKT8Lohg3quh0=
+			Y7CUsd+6aVRlzz0aCBDBe5gQZdrzcKHzfPsUS8nk4fw=
 			</data>
 			<key>optional</key>
 			<true/>
