@@ -89,7 +89,8 @@ public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
 }
 public protocol SeasonTeamsViewControllerDelegate : AnyObject {
   func viewPosts(forPlayer: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String)
-  func follow(playerId: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String)
+  func follow(title: Swift.Bool, playerId: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  func getFollowUnfollowStatus(playerId: Swift.String, completion: @escaping (Swift.Bool) -> ())
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SeasonTeamsViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.SeasonTeamsViewControllerDelegate?
