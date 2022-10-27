@@ -144,147 +144,6 @@
         "moduleName": "PlayerModule"
       },
       {
-        "kind": "TypeDecl",
-        "name": "LocalizationSystem",
-        "printedName": "LocalizationSystem",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "sharedInstance",
-            "printedName": "sharedInstance",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LocalizationSystem",
-                "printedName": "PlayerModule.LocalizationSystem",
-                "usr": "c:@M@PlayerModule@objc(cs)LocalizationSystem"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12PlayerModule18LocalizationSystemC14sharedInstanceACvpZ",
-            "mangledName": "$s12PlayerModule18LocalizationSystemC14sharedInstanceACvpZ",
-            "moduleName": "PlayerModule",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LocalizationSystem",
-                    "printedName": "PlayerModule.LocalizationSystem",
-                    "usr": "c:@M@PlayerModule@objc(cs)LocalizationSystem"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12PlayerModule18LocalizationSystemC14sharedInstanceACvgZ",
-                "mangledName": "$s12PlayerModule18LocalizationSystemC14sharedInstanceACvgZ",
-                "moduleName": "PlayerModule",
-                "static": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "setLanguage",
-            "printedName": "setLanguage(languageCode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PlayerModule18LocalizationSystemC11setLanguage12languageCodeySS_tF",
-            "mangledName": "$s12PlayerModule18LocalizationSystemC11setLanguage12languageCodeySS_tF",
-            "moduleName": "PlayerModule",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@PlayerModule@objc(cs)LocalizationSystem",
-        "mangledName": "$s12PlayerModule18LocalizationSystemC",
-        "moduleName": "PlayerModule",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -402,6 +261,23 @@
         "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "PlayerModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PlayerModule"
       },
@@ -565,8 +441,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PlayerModule",
         "declAttributes": [
@@ -668,6 +544,89 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TeamData",
+        "printedName": "TeamData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TeamData",
+                "printedName": "PlayerModule.TeamData",
+                "usr": "s:12PlayerModule8TeamDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12PlayerModule8TeamDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12PlayerModule8TeamDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PlayerModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule8TeamDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12PlayerModule8TeamDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PlayerModule",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12PlayerModule8TeamDataV",
+        "mangledName": "$s12PlayerModule8TeamDataV",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "PlayerCoaches",
         "printedName": "PlayerCoaches",
         "children": [
@@ -728,6 +687,89 @@
         "declKind": "Struct",
         "usr": "s:12PlayerModule0A7CoachesV",
         "mangledName": "$s12PlayerModule0A7CoachesV",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Match",
+        "printedName": "Match",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Match",
+                "printedName": "PlayerModule.Match",
+                "usr": "s:12PlayerModule5MatchV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12PlayerModule5MatchV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12PlayerModule5MatchV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PlayerModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule5MatchV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12PlayerModule5MatchV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PlayerModule",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12PlayerModule5MatchV",
+        "mangledName": "$s12PlayerModule5MatchV",
         "moduleName": "PlayerModule",
         "declAttributes": [
           "AccessControl"
@@ -940,6 +982,39 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlayerName",
+            "printedName": "setPlayerName(englishName:arabicName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule38TournamentDetailViewControllerDelegateP03setA4Name07englishI006arabicI0ySS_SStF",
+            "mangledName": "$s12PlayerModule38TournamentDetailViewControllerDelegateP03setA4Name07englishI006arabicI0ySS_SStF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.TournamentDetailViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.TournamentDetailViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -949,7 +1024,8 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -1467,102 +1543,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "PlayerModule"
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "PlayerModule"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BackgroundRemoval",
-        "printedName": "BackgroundRemoval",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BackgroundRemoval",
-                "printedName": "PlayerModule.BackgroundRemoval",
-                "usr": "s:12PlayerModule17BackgroundRemovalV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12PlayerModule17BackgroundRemovalVACycfc",
-            "mangledName": "$s12PlayerModule17BackgroundRemovalVACycfc",
-            "moduleName": "PlayerModule",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "removeBackground",
-            "printedName": "removeBackground(image:maskOnly:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PlayerModule17BackgroundRemovalV06removeC05image8maskOnlySo7UIImageCAH_SbtF",
-            "mangledName": "$s12PlayerModule17BackgroundRemovalV06removeC05image8maskOnlySo7UIImageCAH_SbtF",
-            "moduleName": "PlayerModule",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12PlayerModule17BackgroundRemovalV",
-        "mangledName": "$s12PlayerModule17BackgroundRemovalV",
-        "moduleName": "PlayerModule",
-        "intro_iOS": "14.0",
-        "declAttributes": [
-          "AccessControl",
-          "Available"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PlayerModule",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1735,6 +1715,90 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ScoreboardBannerDelegate",
+        "printedName": "ScoreboardBannerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showMatchDetail",
+            "printedName": "showMatchDetail(match:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Match",
+                "printedName": "PlayerModule.Match",
+                "usr": "s:12PlayerModule5MatchV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule24ScoreboardBannerDelegateP15showMatchDetail5matchyAA0G0V_tF",
+            "mangledName": "$s12PlayerModule24ScoreboardBannerDelegateP15showMatchDetail5matchyAA0G0V_tF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.ScoreboardBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.ScoreboardBannerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTeamsPlayers",
+            "printedName": "showTeamsPlayers(teams:currentTeam:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PlayerModule.TeamData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TeamData",
+                    "printedName": "PlayerModule.TeamData",
+                    "usr": "s:12PlayerModule8TeamDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TeamData",
+                "printedName": "PlayerModule.TeamData",
+                "usr": "s:12PlayerModule8TeamDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule24ScoreboardBannerDelegateP16showTeamsPlayers5teams11currentTeamySayAA0K4DataVG_AHtF",
+            "mangledName": "$s12PlayerModule24ScoreboardBannerDelegateP16showTeamsPlayers5teams11currentTeamySayAA0K4DataVG_AHtF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.ScoreboardBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.ScoreboardBannerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12PlayerModule24ScoreboardBannerDelegateP",
+        "mangledName": "$s12PlayerModule24ScoreboardBannerDelegateP",
+        "moduleName": "PlayerModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ScoreboardBanner",
         "printedName": "ScoreboardBanner",
         "children": [
@@ -1760,6 +1824,37 @@
               "ObjC",
               "Custom",
               "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getScoreboardView",
+            "printedName": "getScoreboardView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule16ScoreboardBannerC03getC4ViewSo6UIViewCSgyFZ",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC03getC4ViewSo6UIViewCSgyFZ",
+            "moduleName": "PlayerModule",
+            "static": true,
+            "declAttributes": [
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -1837,6 +1932,395 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfSections",
+            "printedName": "numberOfSections(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)numberOfSectionsInCollectionView:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC16numberOfSections2inSiSo16UICollectionViewC_tF",
+            "moduleName": "PlayerModule",
+            "objc_name": "numberOfSectionsInCollectionView:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_22numberOfItemsInSectionSiSo012UICollectionF0C_SitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_13cellForItemAtSo012UICollectionF4CellCSo0kF0C_10Foundation9IndexPathVtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_15didSelectItemAtySo012UICollectionF0C_10Foundation9IndexPathVtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionF0C_So0mF6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_6layout30minimumLineSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionF0C_So0qF6LayoutCSitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumInteritemSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:layout:minimumInteritemSpacingForSectionAtIndex:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_6layout35minimumInteritemSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionF0C_So0qF6LayoutCSitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:minimumInteritemSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:insetForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)collectionView:layout:insetForSectionAtIndex:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC14collectionView_6layout17insetForSectionAtSo12UIEdgeInsetsVSo012UICollectionF0C_So0nF6LayoutCSitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:insetForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDecelerating",
+            "printedName": "scrollViewDidEndDecelerating(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)scrollViewDidEndDecelerating:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC28scrollViewDidEndDeceleratingyySo08UIScrollF0CF",
+            "moduleName": "PlayerModule",
+            "objc_name": "scrollViewDidEndDecelerating:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDragging",
+            "printedName": "scrollViewDidEndDragging(_:willDecelerate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)ScoreboardBanner(im)scrollViewDidEndDragging:willDecelerate:",
+            "mangledName": "$s12PlayerModule16ScoreboardBannerC24scrollViewDidEndDragging_14willDecelerateySo08UIScrollF0C_SbtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "scrollViewDidEndDragging:willDecelerate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2099,6 +2583,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PlayerModule",
         "declAttributes": [
@@ -4171,6 +4665,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/LineUps\/LineUpCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 581,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/LineUps\/LineUpCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 710,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Extensions\/Date.swift",
       "kind": "StringLiteral",
       "offset": 286,
@@ -4339,6 +4847,13 @@
       "value": "\"d MMM yyyy | h:mm a\""
     },
     {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 7,
+      "value": "\"hh:mm\""
+    },
+    {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/Scorer\/ScorerCollectionViewCell.swift",
       "kind": "StringLiteral",
       "offset": 297,
@@ -4410,1317 +4925,1324 @@
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 412,
+      "offset": 444,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 467,
+      "offset": 499,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 522,
+      "offset": 554,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 577,
+      "offset": 609,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 632,
+      "offset": 664,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 682,
+      "offset": 714,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 756,
+      "offset": 788,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 799,
+      "offset": 831,
       "length": 3,
       "value": "375"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 842,
+      "offset": 874,
       "length": 3,
       "value": "414"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 916,
+      "offset": 948,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 963,
+      "offset": 995,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1070,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1079,
+      "offset": 1111,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1129,
+      "offset": 1161,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1179,
+      "offset": 1211,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1220,
+      "offset": 1252,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 1303,
+      "offset": 1335,
       "length": 4,
       "value": "1.24"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 1357,
+      "offset": 1389,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 1411,
+      "offset": 1443,
       "length": 4,
       "value": "1.18"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1463,
+      "offset": 1495,
       "length": 2,
       "value": "73"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1504,
+      "offset": 1536,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1546,
+      "offset": 1578,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1589,
+      "offset": 1621,
       "length": 3,
       "value": "115"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1640,
+      "offset": 1672,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1681,
+      "offset": 1713,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1722,
+      "offset": 1754,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1763,
+      "offset": 1795,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 1849,
+      "offset": 1881,
       "length": 5,
       "value": "467.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 1903,
+      "offset": 1935,
       "length": 5,
       "value": "347.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 1979,
+      "offset": 2011,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2025,
+      "offset": 2057,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2070,
+      "offset": 2102,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2124,
+      "offset": 2156,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2169,
+      "offset": 2201,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2224,
+      "offset": 2256,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2272,
+      "offset": 2304,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2314,
+      "offset": 2346,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2367,
+      "offset": 2399,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2461,
+      "offset": 2493,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2545,
+      "offset": 2577,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2597,
+      "offset": 2629,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2652,
+      "offset": 2684,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 2714,
+      "offset": 2746,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2753,
+      "offset": 2785,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2793,
+      "offset": 2825,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2833,
+      "offset": 2865,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2877,
+      "offset": 2909,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2921,
+      "offset": 2953,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 2965,
+      "offset": 2997,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3009,
+      "offset": 3041,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3062,
+      "offset": 3094,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3115,
+      "offset": 3147,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3164,
+      "offset": 3196,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3199,
+      "offset": 3231,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3235,
+      "offset": 3267,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3271,
+      "offset": 3303,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3307,
+      "offset": 3339,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3343,
+      "offset": 3375,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3390,
+      "offset": 3422,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3468,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3485,
+      "offset": 3517,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3534,
+      "offset": 3566,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3579,
+      "offset": 3611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3629,
+      "offset": 3661,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3675,
+      "offset": 3707,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3721,
+      "offset": 3753,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3767,
+      "offset": 3799,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3813,
+      "offset": 3845,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3858,
+      "offset": 3890,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3938,
+      "offset": 3970,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 3992,
+      "offset": 4024,
       "length": 3,
       "value": "203"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4047,
+      "offset": 4079,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4101,
+      "offset": 4133,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4153,
+      "offset": 4185,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4209,
+      "offset": 4241,
       "length": 3,
       "value": "270"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4272,
+      "offset": 4304,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4322,
+      "offset": 4354,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4379,
+      "offset": 4411,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4436,
+      "offset": 4468,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4508,
+      "offset": 4540,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4514,
+      "offset": 4546,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4524,
+      "offset": 4556,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4537,
+      "offset": 4569,
       "length": 3,
       "value": "310"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4605,
+      "offset": 4637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4611,
+      "offset": 4643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4621,
+      "offset": 4653,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4634,
+      "offset": 4666,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4730,
+      "offset": 4762,
       "length": 4,
       "value": "200"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4781,
+      "offset": 4813,
       "length": 3,
       "value": "260"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4834,
+      "offset": 4866,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4891,
+      "offset": 4923,
       "length": 3,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4930,
+      "offset": 4962,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 4995,
+      "offset": 5027,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5049,
+      "offset": 5081,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 5102,
+      "offset": 5134,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5157,
+      "offset": 5189,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5209,
+      "offset": 5241,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5272,
+      "offset": 5304,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5333,
+      "offset": 5365,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5461,
+      "offset": 5493,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5512,
+      "offset": 5544,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5563,
+      "offset": 5595,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5629,
+      "offset": 5661,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 5683,
+      "offset": 5715,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "FloatLiteral",
-      "offset": 5738,
+      "offset": 5770,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5800,
+      "offset": 5832,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5893,
+      "offset": 5925,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5950,
+      "offset": 5982,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6011,
+      "offset": 6043,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6071,
+      "offset": 6103,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6206,
+      "offset": 6238,
       "length": 3,
       "value": "285"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6271,
+      "offset": 6303,
       "length": 3,
       "value": "330"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6336,
+      "offset": 6368,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6396,
+      "offset": 6428,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6455,
+      "offset": 6487,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6519,
+      "offset": 6551,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6640,
+      "offset": 6672,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6698,
+      "offset": 6730,
       "length": 3,
       "value": "175"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6752,
+      "offset": 6784,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6815,
+      "offset": 6847,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6868,
+      "offset": 6900,
       "length": 3,
       "value": "145"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 6977,
+      "offset": 7009,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7036,
+      "offset": 7068,
       "length": 3,
       "value": "205"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7091,
+      "offset": 7123,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7202,
+      "offset": 7234,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7317,
+      "offset": 7349,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7323,
+      "offset": 7355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7333,
+      "offset": 7365,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7345,
+      "offset": 7377,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7412,
+      "offset": 7444,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7473,
+      "offset": 7505,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7518,
+      "offset": 7550,
       "length": 3,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7642,
+      "offset": 7674,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7648,
+      "offset": 7680,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7658,
+      "offset": 7690,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7670,
+      "offset": 7702,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7772,
+      "offset": 7804,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7778,
+      "offset": 7810,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7788,
+      "offset": 7820,
       "length": 3,
       "value": "127"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7801,
+      "offset": 7833,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7886,
+      "offset": 7918,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 7979,
+      "offset": 8011,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8051,
+      "offset": 8083,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8111,
+      "offset": 8143,
       "length": 3,
       "value": "190"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8161,
+      "offset": 8193,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8210,
+      "offset": 8242,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8259,
+      "offset": 8291,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8291,
+      "offset": 8323,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8342,
+      "offset": 8374,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8395,
+      "offset": 8427,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8448,
+      "offset": 8480,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8501,
+      "offset": 8533,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8555,
+      "offset": 8587,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8610,
+      "offset": 8642,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8664,
+      "offset": 8696,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8720,
+      "offset": 8752,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8788,
+      "offset": 8820,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8856,
+      "offset": 8888,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8915,
+      "offset": 8947,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 8973,
+      "offset": 9005,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9010,
+      "offset": 9042,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9046,
+      "offset": 9078,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9112,
+      "offset": 9144,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9166,
+      "offset": 9198,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9219,
+      "offset": 9251,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9273,
+      "offset": 9305,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9327,
+      "offset": 9359,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9385,
+      "offset": 9417,
       "length": 3,
       "value": "116"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9444,
+      "offset": 9476,
       "length": 3,
       "value": "124"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9498,
+      "offset": 9530,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9549,
+      "offset": 9581,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9600,
+      "offset": 9632,
       "length": 3,
       "value": "175"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9653,
+      "offset": 9685,
       "length": 3,
       "value": "225"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9701,
+      "offset": 9733,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9767,
+      "offset": 9799,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9829,
+      "offset": 9861,
       "length": 3,
       "value": "105"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9886,
+      "offset": 9918,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9944,
+      "offset": 9976,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 9998,
+      "offset": 10030,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10054,
+      "offset": 10086,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10266,
+      "offset": 10298,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10270,
+      "offset": 10302,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10408,
+      "offset": 10440,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10412,
+      "offset": 10444,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10525,
+      "offset": 10557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10593,
+      "offset": 10625,
       "length": 4,
       "value": "1136"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10633,
+      "offset": 10665,
       "length": 4,
       "value": "1334"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 10673,
+      "offset": 10705,
       "length": 4,
       "value": "2208"
     },
@@ -6490,1001 +7012,1001 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8373,
-      "length": 21,
-      "value": "\"BnsNotificationCell\""
+      "offset": 8382,
+      "length": 30,
+      "value": "\"ScoreboardCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8451,
-      "length": 36,
-      "value": "\"StadiumDetailsGalleryTableViewCell\""
+      "offset": 8457,
+      "length": 24,
+      "value": "\"FlagCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8538,
+      "offset": 8532,
       "length": 30,
       "value": "\"StadiumNewsInfoTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8631,
+      "offset": 8625,
       "length": 41,
       "value": "\"StadiumDetailsPhotoGalleryTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8743,
+      "offset": 8737,
       "length": 41,
       "value": "\"StadiumDetailsGalleryCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8845,
+      "offset": 8839,
       "length": 40,
       "value": "\"StadiumDetailsBannerCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 8941,
+      "offset": 8935,
       "length": 35,
       "value": "\"StadiumDetailsImageCollectionCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9026,
+      "offset": 9020,
       "length": 29,
       "value": "\"StadiumMenuSeviceSliderCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9106,
+      "offset": 9100,
       "length": 30,
       "value": "\"ImportantNumberTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9188,
+      "offset": 9182,
       "length": 31,
       "value": "\"StadiumFacilityFilterViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9277,
+      "offset": 9271,
       "length": 35,
       "value": "\"StadiumNewsInfoCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9375,
+      "offset": 9369,
       "length": 42,
       "value": "\"StadiumDetailsParkTreeCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9461,
+      "offset": 9455,
       "length": 23,
       "value": "\"NewStadiumLandingGrid\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9532,
+      "offset": 9526,
       "length": 27,
       "value": "\"NewStadiumLandingGridCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9606,
+      "offset": 9600,
       "length": 26,
       "value": "\"StadiumDetailsNewsEvents\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9707,
+      "offset": 9701,
       "length": 21,
       "value": "\"StadiumFacilityCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9779,
+      "offset": 9773,
       "length": 30,
       "value": "\"StadiumDetailsNewsEventsCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9887,
+      "offset": 9881,
       "length": 31,
       "value": "\"StadiumImpNumberTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 9992,
+      "offset": 9986,
       "length": 26,
       "value": "\"H2HProgressTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10068,
+      "offset": 10062,
       "length": 20,
       "value": "\"StandingHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10132,
+      "offset": 10126,
       "length": 24,
       "value": "\"StandingsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10204,
+      "offset": 10198,
       "length": 27,
       "value": "\"StadiumMedicalClinicsCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10318,
+      "offset": 10312,
       "length": 36,
       "value": "\"StadiumServiceContactTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10412,
+      "offset": 10406,
       "length": 37,
       "value": "\"StadiumServiceLocationTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10498,
+      "offset": 10492,
       "length": 28,
       "value": "\"StadiumButtonTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10594,
+      "offset": 10588,
       "length": 29,
       "value": "\"StadiumFanzoneTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10671,
+      "offset": 10665,
       "length": 27,
       "value": "\"StadiumContactFanzoneCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10764,
+      "offset": 10758,
       "length": 27,
       "value": "\"StadiumParkingServiceCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10836,
+      "offset": 10830,
       "length": 24,
       "value": "\"StadiumParkingViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 10945,
+      "offset": 10939,
       "length": 32,
       "value": "\"StadiumPostDetailTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11040,
+      "offset": 11034,
       "length": 14,
       "value": "\"LeftMenuCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11087,
+      "offset": 11081,
       "length": 12,
       "value": "\"LogoutCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11180,
+      "offset": 11174,
       "length": 20,
       "value": "\"VenueSelectionCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11254,
+      "offset": 11248,
       "length": 33,
       "value": "\"BookingStatusVenueTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11337,
+      "offset": 11331,
       "length": 29,
       "value": "\"BookingEnquiryTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11421,
+      "offset": 11415,
       "length": 34,
       "value": "\"StadiumVenueBookingTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11509,
+      "offset": 11503,
       "length": 33,
       "value": "\"BookingStatusCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11583,
+      "offset": 11577,
       "length": 20,
       "value": "\"BookingSummaryCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11653,
+      "offset": 11647,
       "length": 24,
       "value": "\"AudioTourTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11724,
+      "offset": 11718,
       "length": 26,
       "value": "\"BookingSummaryFooterCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11801,
+      "offset": 11795,
       "length": 30,
       "value": "\"BookingFacilityTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11888,
+      "offset": 11882,
       "length": 36,
       "value": "\"BookingServiceSummaryTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 11968,
+      "offset": 11962,
       "length": 23,
       "value": "\"BookingServicesFooter\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12041,
+      "offset": 12035,
       "length": 29,
       "value": "\"EnquiryDetailsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12127,
+      "offset": 12121,
       "length": 36,
       "value": "\"BookingEnquiryDetailsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12215,
+      "offset": 12209,
       "length": 31,
       "value": "\"EnquiryQuotationTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12298,
+      "offset": 12292,
       "length": 31,
       "value": "\"QuotationServiceTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12379,
+      "offset": 12373,
       "length": 29,
       "value": "\"BookingPaymentTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12459,
+      "offset": 12453,
       "length": 30,
       "value": "\"BookingCategoryTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12535,
+      "offset": 12529,
       "length": 25,
       "value": "\"MyPaymentsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12599,
+      "offset": 12593,
       "length": 18,
       "value": "\"POITableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12719,
+      "offset": 12713,
       "length": 34,
       "value": "\"HomeGlobalNewsCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12799,
+      "offset": 12793,
       "length": 29,
       "value": "\"HomeGlobalNewsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12871,
+      "offset": 12865,
       "length": 26,
       "value": "\"HomeGalleryTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 12945,
+      "offset": 12939,
       "length": 31,
       "value": "\"HomeGalleryCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13023,
+      "offset": 13017,
       "length": 26,
       "value": "\"StadiumFactTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13093,
+      "offset": 13087,
       "length": 23,
       "value": "\"HomeNewsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13165,
+      "offset": 13159,
       "length": 28,
       "value": "\"NewsDateCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13240,
+      "offset": 13234,
       "length": 26,
       "value": "\"CircleCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13338,
+      "offset": 13332,
       "length": 25,
       "value": "\"HomeBannerTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13410,
+      "offset": 13404,
       "length": 26,
       "value": "\"HomeBannerCollectionCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13485,
+      "offset": 13479,
       "length": 28,
       "value": "\"HomeCountDownTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13561,
+      "offset": 13555,
       "length": 27,
       "value": "\"GalleryCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13628,
+      "offset": 13622,
       "length": 19,
       "value": "\"NewsTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13697,
+      "offset": 13691,
       "length": 29,
       "value": "\"HomeNewsDetailTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13765,
+      "offset": 13759,
       "length": 18,
       "value": "\"PhotoGalleryCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13836,
+      "offset": 13830,
       "length": 32,
       "value": "\"VideoGalleryCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 13916,
+      "offset": 13910,
       "length": 27,
       "value": "\"NotificationTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14001,
+      "offset": 13995,
       "length": 28,
       "value": "\"VenueFacilityTableViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14106,
+      "offset": 14100,
       "length": 15,
       "value": "\"EventInfoCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14164,
+      "offset": 14158,
       "length": 18,
       "value": "\"EventStadiumCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14227,
+      "offset": 14221,
       "length": 27,
       "value": "\"StadiumDetailsFanzoneCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14293,
+      "offset": 14287,
       "length": 27,
       "value": "\"StadiumDetailsFanzoneCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14368,
+      "offset": 14362,
       "length": 32,
       "value": "\"RelatedEventCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14438,
+      "offset": 14432,
       "length": 17,
       "value": "\"StadiumListCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14565,
+      "offset": 14559,
       "length": 23,
       "value": "\"TeamAgainstHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14656,
+      "offset": 14650,
       "length": 17,
       "value": "\"GoalsHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14715,
+      "offset": 14709,
       "length": 25,
       "value": "\"LineUpSectionHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14785,
+      "offset": 14779,
       "length": 24,
       "value": "\"LocationInfoHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14857,
+      "offset": 14851,
       "length": 27,
       "value": "\"StadiumFacilityFooterView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 14948,
+      "offset": 14942,
       "length": 22,
       "value": "\"StadiumServiceHeader\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15036,
+      "offset": 15030,
       "length": 17,
       "value": "\"TeamsHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15133,
+      "offset": 15127,
       "length": 31,
       "value": "\"StadiumFanzoneTableHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15251,
+      "offset": 15245,
       "length": 26,
       "value": "\"VenueSelectionHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15335,
+      "offset": 15329,
       "length": 37,
       "value": "\"BookingStatusCollectionReusableView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15419,
+      "offset": 15413,
       "length": 26,
       "value": "\"BookingSummaryHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15492,
+      "offset": 15486,
       "length": 26,
       "value": "\"BookingSummaryFooterView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15565,
+      "offset": 15559,
       "length": 26,
       "value": "\"BookingEnquiryHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15639,
+      "offset": 15633,
       "length": 27,
       "value": "\"BookingPaymentsHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15722,
+      "offset": 15716,
       "length": 20,
       "value": "\"HomeNewsHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15783,
+      "offset": 15777,
       "length": 20,
       "value": "\"HomeNewsFooterView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15847,
+      "offset": 15841,
       "length": 23,
       "value": "\"HomeSectionHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15908,
+      "offset": 15902,
       "length": 16,
       "value": "\"NewsHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 15980,
+      "offset": 15974,
       "length": 26,
       "value": "\"BookingLandingHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16045,
+      "offset": 16039,
       "length": 18,
       "value": "\"CustomHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16120,
+      "offset": 16114,
       "length": 26,
       "value": "\"BookingLandingFooterView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16240,
+      "offset": 16234,
       "length": 40,
       "value": "\"CollectionFooterCollectionReusableView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16397,
+      "offset": 16391,
       "length": 24,
       "value": "\"StadiumFacilitiesPopUp\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16503,
+      "offset": 16497,
       "length": 27,
       "value": "\"StadiumDetailsTableHeader\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16611,
+      "offset": 16605,
       "length": 32,
       "value": "\"StadiumLocationTableHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16723,
+      "offset": 16717,
       "length": 31,
       "value": "\"StadiumFanzoneTableHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16819,
+      "offset": 16813,
       "length": 17,
       "value": "\"CustomGMSMarker\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16876,
+      "offset": 16870,
       "length": 19,
       "value": "\"ParkingMarkerView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16932,
+      "offset": 16926,
       "length": 16,
       "value": "\"PostMarkerView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 16990,
+      "offset": 16984,
       "length": 21,
       "value": "\"CustomPostGMSMarker\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17054,
+      "offset": 17048,
       "length": 22,
       "value": "\"CustomSubServiceView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17116,
+      "offset": 17110,
       "length": 19,
       "value": "\"VolunteerHelpView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17175,
+      "offset": 17169,
       "length": 19,
       "value": "\"FirstAidPopupView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17242,
+      "offset": 17236,
       "length": 27,
       "value": "\"ImportantNumbersPopupView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17313,
+      "offset": 17307,
       "length": 23,
       "value": "\"SafetyAndSecurityView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17380,
+      "offset": 17374,
       "length": 23,
       "value": "\"ParkingInfoHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17492,
+      "offset": 17486,
       "length": 20,
       "value": "\"ParkLocationMarker\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17599,
+      "offset": 17593,
       "length": 26,
       "value": "\"BookingConfirmationPopUp\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17667,
+      "offset": 17661,
       "length": 21,
       "value": "\"BookingSuccessPopUp\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17741,
+      "offset": 17735,
       "length": 27,
       "value": "\"BookingServicesHeaderView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17823,
+      "offset": 17817,
       "length": 25,
       "value": "\"CustomDateSelectionView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17896,
+      "offset": 17890,
       "length": 18,
       "value": "\"LoginOptionPopup\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 17957,
+      "offset": 17951,
       "length": 21,
       "value": "\"EnquiryDetailsPopUp\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18031,
+      "offset": 18025,
       "length": 23,
       "value": "\"EnquiryQuotationPopUp\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18110,
+      "offset": 18104,
       "length": 26,
       "value": "\"StadiumDetailsFooterView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18179,
+      "offset": 18173,
       "length": 21,
       "value": "\"StadiumListingPopup\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18247,
+      "offset": 18241,
       "length": 26,
       "value": "\"StadiumDetailsQuickFacts\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18324,
+      "offset": 18318,
       "length": 30,
       "value": "\"StadiumDetailsNavigationView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18401,
+      "offset": 18395,
       "length": 26,
       "value": "\"StadiumMenuServicesPopup\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18467,
+      "offset": 18461,
       "length": 19,
       "value": "\"DropDownTableView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18533,
+      "offset": 18527,
       "length": 26,
       "value": "\"StadiumMenuServiceSlider\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18604,
+      "offset": 18598,
       "length": 24,
       "value": "\"DisabilityServicesView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18669,
+      "offset": 18663,
       "length": 20,
       "value": "\"MedicalServiceView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18731,
+      "offset": 18725,
       "length": 21,
       "value": "\"ImportantNumberView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18798,
+      "offset": 18792,
       "length": 25,
       "value": "\"LocationInformationView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18859,
+      "offset": 18853,
       "length": 15,
       "value": "\"CustomWebView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18910,
+      "offset": 18904,
       "length": 15,
       "value": "\"CustomMapView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 18972,
+      "offset": 18966,
       "length": 26,
       "value": "\"StadiumLocationMakerView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 19047,
+      "offset": 19041,
       "length": 28,
       "value": "\"StadiumFacilityServiceView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 19123,
+      "offset": 19117,
       "length": 27,
       "value": "\"StadiumFacilityFilterView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 19191,
+      "offset": 19185,
       "length": 20,
       "value": "\"StadiumParkingView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
       "kind": "StringLiteral",
-      "offset": 19252,
+      "offset": 19246,
       "length": 20,
       "value": "\"FanzoneServiceView\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileViewController.swift",
       "kind": "Array",
-      "offset": 387,
+      "offset": 478,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileViewController.swift",
       "kind": "Array",
-      "offset": 463,
+      "offset": 554,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 509,
+      "offset": 552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 559,
+      "offset": 602,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1216,
+      "offset": 1952,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailViewController.swift",
       "kind": "StringLiteral",
-      "offset": 330,
+      "offset": 421,
       "length": 2,
       "value": "\"\""
     },
@@ -7757,28 +8279,35 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 984,
+      "offset": 1318,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
+      "kind": "Array",
+      "offset": 1358,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1026,
+      "offset": 1400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1064,
+      "offset": 1438,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1470,
       "length": 1,
       "value": "0"
     },
@@ -8394,14 +8923,14 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 708,
+      "offset": 796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 741,
+      "offset": 829,
       "length": 1,
       "value": "0"
     },
@@ -8474,6 +9003,34 @@
       "offset": 495,
       "length": 1,
       "value": "7"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 768,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 952,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1006,
+      "length": 2,
+      "value": "13"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Titles\/TitlesCollectionViewCell.swift",
@@ -8721,149 +9278,100 @@
       "value": "\"CLUB STATS\""
     },
     {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 2070,
-      "length": 8,
-      "value": "\"out_p0\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 2324,
-      "length": 8,
-      "value": "\"out_p1\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 2578,
-      "length": 8,
-      "value": "\"out_p2\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 2832,
-      "length": 8,
-      "value": "\"out_p3\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 3086,
-      "length": 8,
-      "value": "\"out_p4\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 3340,
-      "length": 8,
-      "value": "\"out_p5\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/LaLabsu2netp.swift",
-      "kind": "StringLiteral",
-      "offset": 3594,
-      "length": 8,
-      "value": "\"out_p6\""
-    },
-    {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47199,
+      "offset": 47351,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47278,
+      "offset": 47430,
       "length": 11,
       "value": "\"ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47315,
+      "offset": 47467,
       "length": 11,
       "value": "\"en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47367,
+      "offset": 47519,
       "length": 17,
       "value": "\"short_ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47416,
+      "offset": 47568,
       "length": 17,
       "value": "\"short_en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47458,
+      "offset": 47610,
       "length": 7,
       "value": "\"class\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47486,
+      "offset": 47638,
       "length": 6,
       "value": "\"icon\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47199,
+      "offset": 47351,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47278,
+      "offset": 47430,
       "length": 11,
       "value": "\"ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47315,
+      "offset": 47467,
       "length": 11,
       "value": "\"en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47367,
+      "offset": 47519,
       "length": 17,
       "value": "\"short_ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47416,
+      "offset": 47568,
       "length": 17,
       "value": "\"short_en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47458,
+      "offset": 47610,
       "length": 7,
       "value": "\"class\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 47486,
+      "offset": 47638,
       "length": 6,
       "value": "\"icon\""
     },
@@ -9500,7 +10008,7 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/H2H\/ComparePlayerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5331,
+      "offset": 4664,
       "length": 1,
       "value": "7"
     },
@@ -9596,13 +10104,6 @@
       "value": "100"
     },
     {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Custom\/BackgroundRemoval.swift",
-      "kind": "BooleanLiteral",
-      "offset": 507,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
       "offset": 394,
@@ -9857,91 +10358,91 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 1450,
+      "offset": 1538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 1481,
+      "offset": 1569,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1749,
+      "offset": 1837,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1781,
+      "offset": 1869,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 1813,
+      "offset": 1901,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1854,
+      "offset": 1942,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1892,
+      "offset": 1980,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1928,
+      "offset": 2016,
       "length": 2,
       "value": "54"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1970,
+      "offset": 2058,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 2018,
+      "offset": 2106,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 2053,
+      "offset": 2141,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 2088,
+      "offset": 2176,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "FloatLiteral",
-      "offset": 2136,
+      "offset": 2224,
       "length": 3,
       "value": "5.0"
     },
@@ -9965,6 +10466,13 @@
       "offset": 774,
       "length": 1,
       "value": "7"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardBanner.swift",
+      "kind": "Array",
+      "offset": 713,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/TeamH2H\/TeamsH2HCollectionViewCell.swift",
@@ -10830,854 +11338,875 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 531,
+      "length": 18,
+      "value": "\"kgmoajqxpr9yp60l\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 18,
+      "value": "\"jz4xo8r3gdegmyld\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 18,
+      "value": "\"y90lj7r5nrdmb65o\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
       "length": 6,
       "value": "\"Chat\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 738,
       "length": 20,
       "value": "\"Type your query...\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 816,
       "length": 10,
       "value": "\"Stadiums\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 861,
       "length": 19,
       "value": "\"About the Stadium\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 913,
       "length": 14,
       "value": "\"Stadium Park\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 820,
+      "offset": 962,
       "length": 16,
       "value": "\"Stadium Design\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 1021,
       "length": 24,
       "value": "\"Stadium Sustainibility\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 1074,
       "length": 16,
       "value": "\"Stadium Legacy\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 1128,
       "length": 19,
       "value": "\"Important Numbers\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1178,
       "length": 10,
       "value": "\"Location\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1076,
+      "offset": 1218,
       "length": 10,
       "value": "\"Fan Zone\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1262,
       "length": 14,
       "value": "\"Stadium Park\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
+      "offset": 1306,
       "length": 10,
       "value": "\"View All\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1350,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1238,
+      "offset": 1380,
       "length": 6,
       "value": "\"News\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 1415,
       "length": 8,
       "value": "\"Events\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1342,
+      "offset": 1484,
       "length": 10,
       "value": "\"Call Now\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1386,
+      "offset": 1528,
       "length": 10,
       "value": "\"360 View\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1477,
+      "offset": 1619,
       "length": 18,
       "value": "\"Medical Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 1693,
       "length": 23,
       "value": "\"First Aid Information\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1774,
       "length": 25,
       "value": "\"Important Phone Numbers\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1843,
       "length": 9,
       "value": "\"Clinics\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1900,
       "length": 21,
       "value": "\"Disability Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1823,
+      "offset": 1965,
       "length": 16,
       "value": "\"emergency call\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 2083,
       "length": 12,
       "value": "\"disability\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1989,
+      "offset": 2131,
       "length": 21,
       "value": "\"Disability Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2191,
       "length": 10,
       "value": "\"Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2104,
+      "offset": 2246,
       "length": 17,
       "value": "\"Assistance Call\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2309,
       "length": 39,
       "value": "\"Location Services - Ramps & Elevators\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2287,
+      "offset": 2429,
       "length": 20,
       "value": "\"Volunteer Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2389,
+      "offset": 2531,
       "length": 21,
       "value": "\"Wheelchair Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2456,
+      "offset": 2598,
       "length": 37,
       "value": "\"Location where wheelchairs are kept\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2579,
+      "offset": 2721,
       "length": 14,
       "value": "\"Parking Name\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2635,
+      "offset": 2777,
       "length": 14,
       "value": "\"Parking Type\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2698,
+      "offset": 2840,
       "length": 21,
       "value": "\"Alternative Parking\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 2941,
       "length": 10,
       "value": "\"Fan Zone\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2855,
+      "offset": 2997,
       "length": 12,
       "value": "\"Location: \""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2913,
+      "offset": 3055,
       "length": 12,
       "value": "\"Activities\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2978,
+      "offset": 3120,
       "length": 19,
       "value": "\"Entry Requirement\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3049,
+      "offset": 3191,
       "length": 18,
       "value": "\"Prohibited Items\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3111,
+      "offset": 3253,
       "length": 10,
       "value": "\"Contacts\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3209,
+      "offset": 3351,
       "length": 21,
       "value": "\"Safety and Security\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3311,
+      "offset": 3453,
       "length": 14,
       "value": "\"Stadium Park\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3361,
+      "offset": 3503,
       "length": 7,
       "value": "\"Trees\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3442,
+      "offset": 3584,
       "length": 15,
       "value": "\"Notifications\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3536,
+      "offset": 3678,
       "length": 16,
       "value": "\"Other Location\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3594,
+      "offset": 3736,
       "length": 14,
       "value": "\"Other Venues\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3636,
+      "offset": 3778,
       "length": 39,
       "value": "\"FIFA World Cup Qatar 2022™ Stadiums\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3712,
+      "offset": 3854,
       "length": 5,
       "value": "\"QAR\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3748,
+      "offset": 3890,
       "length": 15,
       "value": "\"Venue Booking\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3802,
+      "offset": 3944,
       "length": 13,
       "value": "\"Find Venues\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3854,
+      "offset": 3996,
       "length": 20,
       "value": "\"Venue Availability\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3912,
+      "offset": 4054,
       "length": 12,
       "value": "\"Venue Tour\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3961,
+      "offset": 4103,
       "length": 17,
       "value": "\"Select Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4014,
+      "offset": 4156,
       "length": 19,
       "value": "\"Safety & Security\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4073,
+      "offset": 4215,
       "length": 28,
       "value": "\"Please select sub category\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4132,
+      "offset": 4274,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4173,
+      "offset": 4315,
       "length": 50,
       "value": "\"Please select occupancy status for selected date\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4260,
+      "offset": 4402,
       "length": 22,
       "value": "\"Venue Hire Agreement\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4314,
+      "offset": 4456,
       "length": 5,
       "value": "\"Yes\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4350,
+      "offset": 4492,
       "length": 4,
       "value": "\"No\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4386,
+      "offset": 4528,
       "length": 12,
       "value": "\"All Venues\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4433,
+      "offset": 4575,
       "length": 15,
       "value": "\"Venue Details\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4486,
+      "offset": 4628,
       "length": 31,
       "value": "\"Services Provided for Enquiry\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4557,
+      "offset": 4699,
       "length": 33,
       "value": "\"Equipments Provided for Enquiry\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4624,
+      "offset": 4766,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4659,
+      "offset": 4801,
       "length": 7,
       "value": "\"Venue\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4695,
+      "offset": 4837,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4738,
+      "offset": 4880,
       "length": 15,
       "value": "\"All Enquiries\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4779,
+      "offset": 4921,
       "length": 5,
       "value": "\"All\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4821,
+      "offset": 4963,
       "length": 17,
       "value": "\"Enquiry Details\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4871,
+      "offset": 5013,
       "length": 14,
       "value": "\"Book a Venue\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4924,
+      "offset": 5066,
       "length": 19,
       "value": "\"Selected Services\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4984,
+      "offset": 5126,
       "length": 21,
       "value": "\"Selected Equipments\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5040,
+      "offset": 5182,
       "length": 13,
       "value": "\"My Payments\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5079,
+      "offset": 5221,
       "length": 9,
       "value": "\"Payment\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5127,
+      "offset": 5269,
       "length": 15,
       "value": "\"Your Bookings\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5179,
+      "offset": 5321,
       "length": 16,
       "value": "\"Submit Enquiry\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5232,
+      "offset": 5374,
       "length": 13,
       "value": "\"My Bookings\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5277,
+      "offset": 5419,
       "length": 11,
       "value": "\"View More\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5320,
+      "offset": 5462,
       "length": 11,
       "value": "\"Confirmed\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5362,
+      "offset": 5504,
       "length": 10,
       "value": "\"Declined\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5402,
+      "offset": 5544,
       "length": 9,
       "value": "\"Booking\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5443,
+      "offset": 5585,
       "length": 14,
       "value": "\"Book a Venue\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5504,
+      "offset": 5646,
       "length": 115,
       "value": "\"A range of venues are available to book and use for the interested activities. Explore the details here and book!\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5705,
+      "offset": 5847,
       "length": 42,
       "value": "\"Please Login in order to process booking\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 5975,
       "length": 30,
       "value": "\"Thanks for the Confirmation!\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5913,
+      "offset": 6055,
       "length": 46,
       "value": "\"You may now select the services of interest!\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6006,
+      "offset": 6148,
       "length": 25,
       "value": "\"Thanks for the Payment!\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6081,
+      "offset": 6223,
       "length": 27,
       "value": "\"Payment successfully done\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6164,
+      "offset": 6306,
       "length": 21,
       "value": "\"Thanks for Enquiry!\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6235,
+      "offset": 6377,
       "length": 92,
       "value": "\"Your request has been submitted successfully. \n Please check your email for confirmation.\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6390,
+      "offset": 6532,
       "length": 12,
       "value": "\"My Account\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6437,
+      "offset": 6579,
       "length": 9,
       "value": "\"Profile\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6504,
+      "offset": 6646,
       "length": 9,
       "value": "\"driving\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6543,
+      "offset": 6685,
       "length": 9,
       "value": "\"walking\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6607,
+      "offset": 6749,
       "length": 15,
       "value": "\"Welcome Back,\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6661,
+      "offset": 6803,
       "length": 7,
       "value": "\"Email\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6710,
+      "offset": 6852,
       "length": 10,
       "value": "\"Password\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6791,
+      "offset": 6933,
       "length": 12,
       "value": "\"First name\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6845,
+      "offset": 6987,
       "length": 11,
       "value": "\"Last name\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6895,
+      "offset": 7037,
       "length": 7,
       "value": "\"Email\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6947,
+      "offset": 7089,
       "length": 14,
       "value": "\"Country Code\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7001,
+      "offset": 7143,
       "length": 15,
       "value": "\"Mobile Number\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7058,
+      "offset": 7200,
       "length": 10,
       "value": "\"Password\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7117,
+      "offset": 7259,
       "length": 18,
       "value": "\"Confirm Password\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7172,
+      "offset": 7314,
       "length": 9,
       "value": "\"Get OTP\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7219,
+      "offset": 7361,
       "length": 19,
       "value": "\"Create My Account\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7305,
+      "offset": 7447,
       "length": 11,
       "value": "\"Your Name\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7356,
+      "offset": 7498,
       "length": 15,
       "value": "\"Mobile Number\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7410,
+      "offset": 7552,
       "length": 7,
       "value": "\"Email\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7455,
+      "offset": 7597,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7506,
+      "offset": 7648,
       "length": 13,
       "value": "\"Description\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7577,
+      "offset": 7719,
       "length": 10,
       "value": "\"About Us\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7623,
+      "offset": 7765,
       "length": 16,
       "value": "\"Privacy Policy\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7679,
+      "offset": 7821,
       "length": 21,
       "value": "\"Terms and Coditions\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7732,
+      "offset": 7874,
       "length": 12,
       "value": "\"User Guide\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7802,
+      "offset": 7944,
       "length": 50,
       "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 7917,
+      "offset": 8059,
       "length": 21,
       "value": "\"My Service Requests\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 8003,
+      "offset": 8145,
       "length": 12,
       "value": "\"Quick Tour\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 8081,
+      "offset": 8223,
       "length": 20,
       "value": "\"Points of Interest\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 8170,
+      "offset": 8312,
       "length": 16,
       "value": "\"Match Schedule\""
     },
@@ -11749,7 +12278,7 @@
       "kind": "IntegerLiteral",
       "offset": 1210,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
@@ -12303,6 +12832,20 @@
       "offset": 6064,
       "length": 65,
       "value": "\"Error occured while sending your request, Please try agin later\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/FlagCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 9,
+      "value": "\"#E3E3E3\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/FlagCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",

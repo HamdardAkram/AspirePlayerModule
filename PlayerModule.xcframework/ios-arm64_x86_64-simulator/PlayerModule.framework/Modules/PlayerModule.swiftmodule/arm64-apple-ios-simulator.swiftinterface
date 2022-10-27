@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PlayerModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
-import CoreML
 import Foundation
 import MultiProgressView
 import PieCharts
@@ -15,16 +14,8 @@ import Swift
 import SwiftUI
 import UIKit
 import VideoToolbox
-import Vision
 import _Concurrency
 import _StringProcessing
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocalizationSystem : ObjectiveC.NSObject {
-  public class var sharedInstance: PlayerModule.LocalizationSystem {
-    get
-  }
-  public func setLanguage(languageCode: Swift.String)
-  @objc deinit
-}
 extension Swift.String {
   public var length: Swift.Int {
     get
@@ -46,7 +37,15 @@ public struct People : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
+public struct TeamData : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public struct PlayerCoaches : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Match : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
@@ -54,6 +53,7 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
   func viewPosts(forPlayer: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String)
   func follow(title: Swift.Bool, playerId: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String, completion: @escaping (Swift.Bool) -> ())
   func getFollowUnfollowStatus(playerId: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  func setPlayerName(englishName: Swift.String, arabicName: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TournamentDetailViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?
@@ -67,11 +67,6 @@ extension PlayerModule.TournamentDetailViewController : UIKit.UITableViewDataSou
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
 }
-@available(iOS 14.0, *)
-public struct BackgroundRemoval {
-  public init()
-  public func removeBackground(image: UIKit.UIImage, maskOnly: Swift.Bool = false) -> UIKit.UIImage
-}
 extension Swift.KeyedDecodingContainer {
   public func decodeSafelyIfPresent<T>(_ key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable
   public func decodeSafelyIfPresent<T>(_ type: T.Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable
@@ -80,11 +75,28 @@ public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
   public let value: Base?
   public init(from decoder: Swift.Decoder) throws
 }
+public protocol ScoreboardBannerDelegate : AnyObject {
+  func showMatchDetail(match: PlayerModule.Match)
+  func showTeamsPlayers(teams: [PlayerModule.TeamData], currentTeam: PlayerModule.TeamData)
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ScoreboardBanner : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) public class func getScoreboardView() -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+extension PlayerModule.ScoreboardBanner : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
 }
 @_hasMissingDesignatedInitializers final public class AspireApi {
   public static let playerManager: PlayerModule.PlayerManager
