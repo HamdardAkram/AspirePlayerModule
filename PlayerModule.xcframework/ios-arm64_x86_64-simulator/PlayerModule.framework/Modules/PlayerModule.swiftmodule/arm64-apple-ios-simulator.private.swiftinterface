@@ -16,6 +16,47 @@ import UIKit
 import VideoToolbox
 import _Concurrency
 import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocalizationSystem : ObjectiveC.NSObject {
+  public class var sharedInstance: PlayerModule.LocalizationSystem {
+    get
+  }
+  public func localizedStringForKey(key: Swift.String, comment: Swift.String) -> Swift.String
+  public func setLanguage(languageCode: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MatchDetailViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var matchId: Swift.String
+  @_Concurrency.MainActor(unsafe) public var matchObject: PlayerModule.Match!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.MatchDetailViewController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PlayerModule.MatchDetailViewController : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PlayerListViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var teams: [PlayerModule.TeamData]
+  @_Concurrency.MainActor(unsafe) public var currentTeam: PlayerModule.TeamData?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.PlayerListViewController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PlayerModule.PlayerListViewController : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, viewForSupplementaryElementOfKind kind: Swift.String, at indexPath: Foundation.IndexPath) -> UIKit.UICollectionReusableView
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, referenceSizeForHeaderInSection section: Swift.Int) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
 extension Swift.String {
   public var length: Swift.Int {
     get
@@ -78,10 +119,12 @@ public struct SafeProcess<Base> : Swift.Decodable where Base : Swift.Decodable {
 public protocol ScoreboardBannerDelegate : AnyObject {
   func showMatchDetail(match: PlayerModule.Match)
   func showTeamsPlayers(teams: [PlayerModule.TeamData], currentTeam: PlayerModule.TeamData)
+  func failedToDownload(error: Swift.Error)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ScoreboardBanner : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.ScoreboardBannerDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) public class func getScoreboardView() -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) public class func getScoreboardView() -> PlayerModule.ScoreboardBanner?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
