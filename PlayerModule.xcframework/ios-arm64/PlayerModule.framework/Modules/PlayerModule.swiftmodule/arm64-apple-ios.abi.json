@@ -328,6 +328,798 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PlayerCardsDelegate",
+        "printedName": "PlayerCardsDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didSelectedCard",
+            "printedName": "didSelectedCard(card:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerCard",
+                "printedName": "PlayerModule.PlayerCard",
+                "usr": "s:12PlayerModule0A4CardV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule0A13CardsDelegateP15didSelectedCard4cardyAA0aG0V_tF",
+            "mangledName": "$s12PlayerModule0A13CardsDelegateP15didSelectedCard4cardyAA0aG0V_tF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.PlayerCardsDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.PlayerCardsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "failedToDownload",
+            "printedName": "failedToDownload(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule0A13CardsDelegateP16failedToDownload5errorys5Error_p_tF",
+            "mangledName": "$s12PlayerModule0A13CardsDelegateP16failedToDownload5errorys5Error_p_tF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.PlayerCardsDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.PlayerCardsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12PlayerModule0A13CardsDelegateP",
+        "mangledName": "$s12PlayerModule0A13CardsDelegateP",
+        "moduleName": "PlayerModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerCards",
+        "printedName": "PlayerCards",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "PlayerModule.PlayerCardsDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvp",
+            "mangledName": "$s12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvp",
+            "moduleName": "PlayerModule",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PlayerModule.PlayerCardsDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerCardsDelegate",
+                        "printedName": "PlayerModule.PlayerCardsDelegate",
+                        "usr": "s:12PlayerModule0A13CardsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvg",
+                "mangledName": "$s12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvg",
+                "moduleName": "PlayerModule",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PlayerModule.PlayerCardsDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerCardsDelegate",
+                        "printedName": "PlayerModule.PlayerCardsDelegate",
+                        "usr": "s:12PlayerModule0A13CardsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvs",
+                "mangledName": "$s12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvs",
+                "moduleName": "PlayerModule",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvM",
+                "mangledName": "$s12PlayerModule0A5CardsC8delegateAA0aC8Delegate_pSgvM",
+                "moduleName": "PlayerModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PlayerModule@objc(cs)PlayerCards(im)awakeFromNib",
+            "mangledName": "$s12PlayerModule0A5CardsC12awakeFromNibyyF",
+            "moduleName": "PlayerModule",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPlayerCardView",
+            "printedName": "getPlayerCardView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PlayerModule.PlayerCards?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerCards",
+                    "printedName": "PlayerModule.PlayerCards",
+                    "usr": "c:@M@PlayerModule@objc(cs)PlayerCards"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule0A5CardsC03getA8CardViewACSgyFZ",
+            "mangledName": "$s12PlayerModule0A5CardsC03getA8CardViewACSgyFZ",
+            "moduleName": "PlayerModule",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerCards",
+                "printedName": "PlayerModule.PlayerCards",
+                "usr": "c:@M@PlayerModule@objc(cs)PlayerCards"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PlayerModule@objc(cs)PlayerCards(im)initWithFrame:",
+            "mangledName": "$s12PlayerModule0A5CardsC5frameACSo6CGRectV_tcfc",
+            "moduleName": "PlayerModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PlayerModule.PlayerCards?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerCards",
+                    "printedName": "PlayerModule.PlayerCards",
+                    "usr": "c:@M@PlayerModule@objc(cs)PlayerCards"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PlayerModule@objc(cs)PlayerCards(im)initWithCoder:",
+            "mangledName": "$s12PlayerModule0A5CardsC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "PlayerModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfSections",
+            "printedName": "numberOfSections(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)numberOfSectionsInCollectionView:",
+            "mangledName": "$s12PlayerModule0A5CardsC16numberOfSections2inSiSo16UICollectionViewC_tF",
+            "moduleName": "PlayerModule",
+            "objc_name": "numberOfSectionsInCollectionView:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_22numberOfItemsInSectionSiSo012UICollectionE0C_SitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_13cellForItemAtSo012UICollectionE4CellCSo0jE0C_10Foundation9IndexPathVtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_15didSelectItemAtySo012UICollectionE0C_10Foundation9IndexPathVtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionE0C_So0lE6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumLineSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_6layout30minimumLineSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionE0C_So0pE6LayoutCSitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:minimumLineSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:minimumInteritemSpacingForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:layout:minimumInteritemSpacingForSectionAtIndex:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_6layout35minimumInteritemSpacingForSectionAt12CoreGraphics7CGFloatVSo012UICollectionE0C_So0pE6LayoutCSitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:minimumInteritemSpacingForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:insetForSectionAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)collectionView:layout:insetForSectionAtIndex:",
+            "mangledName": "$s12PlayerModule0A5CardsC14collectionView_6layout17insetForSectionAtSo12UIEdgeInsetsVSo012UICollectionE0C_So0mE6LayoutCSitF",
+            "moduleName": "PlayerModule",
+            "objc_name": "collectionView:layout:insetForSectionAtIndex:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDecelerating",
+            "printedName": "scrollViewDidEndDecelerating(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)scrollViewDidEndDecelerating:",
+            "mangledName": "$s12PlayerModule0A5CardsC28scrollViewDidEndDeceleratingyySo08UIScrollE0CF",
+            "moduleName": "PlayerModule",
+            "objc_name": "scrollViewDidEndDecelerating:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDragging",
+            "printedName": "scrollViewDidEndDragging(_:willDecelerate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PlayerModule@objc(cs)PlayerCards(im)scrollViewDidEndDragging:willDecelerate:",
+            "mangledName": "$s12PlayerModule0A5CardsC24scrollViewDidEndDragging_14willDecelerateySo08UIScrollE0C_SbtF",
+            "moduleName": "PlayerModule",
+            "objc_name": "scrollViewDidEndDragging:willDecelerate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PlayerModule@objc(cs)PlayerCards",
+        "mangledName": "$s12PlayerModule0A5CardsC",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2327,6 +3119,89 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PlayerCard",
+        "printedName": "PlayerCard",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerCard",
+                "printedName": "PlayerModule.PlayerCard",
+                "usr": "s:12PlayerModule0A4CardV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12PlayerModule0A4CardV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12PlayerModule0A4CardV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PlayerModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule0A4CardV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12PlayerModule0A4CardV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PlayerModule",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12PlayerModule0A4CardV",
+        "mangledName": "$s12PlayerModule0A4CardV",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -4269,6 +5144,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PlayerModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PlayerModule",
         "declAttributes": [
@@ -6520,6 +7405,20 @@
       "value": "\"hh:mm\""
     },
     {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 27,
+      "value": "\"EEE, MMM dd, yyyy hh:mm a\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 1612,
+      "length": 12,
+      "value": "\"EEE dd MMM\""
+    },
+    {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/Scorer\/ScorerCollectionViewCell.swift",
       "kind": "StringLiteral",
       "offset": 297,
@@ -8694,7 +9593,7 @@
       "kind": "StringLiteral",
       "offset": 8532,
       "length": 30,
-      "value": "\"StadiumNewsInfoTableViewCell\""
+      "value": "\"PlayerCardCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StoryboardIdentifiers.swift",
@@ -9812,63 +10711,63 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1295,
+      "offset": 1378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1501,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1429,
+      "offset": 1512,
       "length": 10,
       "value": "\"TIMELINE\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1546,
       "length": 9,
       "value": "\"LINEUPS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1568,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1496,
+      "offset": 1579,
       "length": 5,
       "value": "\"H2H\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1597,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1608,
       "length": 7,
       "value": "\"STATS\""
     },
@@ -9945,35 +10844,35 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 1317,
+      "offset": 1318,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 1357,
+      "offset": 1358,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1399,
+      "offset": 1400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1437,
+      "offset": 1438,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1469,
+      "offset": 1470,
       "length": 1,
       "value": "0"
     },

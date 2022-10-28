@@ -284,6 +284,33 @@ SWIFT_CLASS("_TtC12PlayerModule25MatchDetailViewController")
 @end
 
 
+SWIFT_CLASS("_TtC12PlayerModule11PlayerCards")
+@interface PlayerCards : UIView
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class UICollectionView;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+@class UIScrollView;
+
+@interface PlayerCards (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
+@end
+
+
 SWIFT_CLASS("_TtC12PlayerModule24PlayerListViewController")
 @interface PlayerListViewController : UIViewController
 - (void)viewDidLoad;
@@ -293,10 +320,7 @@ SWIFT_CLASS("_TtC12PlayerModule24PlayerListViewController")
 @end
 
 
-@class UICollectionView;
-@class UICollectionViewCell;
 @class UICollectionReusableView;
-@class UICollectionViewLayout;
 
 @interface PlayerListViewController (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
@@ -317,7 +341,6 @@ SWIFT_CLASS("_TtC12PlayerModule16ScoreboardBanner")
 @end
 
 
-@class UIScrollView;
 
 @interface ScoreboardBanner (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
@@ -675,6 +698,33 @@ SWIFT_CLASS("_TtC12PlayerModule25MatchDetailViewController")
 @end
 
 
+SWIFT_CLASS("_TtC12PlayerModule11PlayerCards")
+@interface PlayerCards : UIView
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class UICollectionView;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+@class UIScrollView;
+
+@interface PlayerCards (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
+@end
+
+
 SWIFT_CLASS("_TtC12PlayerModule24PlayerListViewController")
 @interface PlayerListViewController : UIViewController
 - (void)viewDidLoad;
@@ -684,10 +734,7 @@ SWIFT_CLASS("_TtC12PlayerModule24PlayerListViewController")
 @end
 
 
-@class UICollectionView;
-@class UICollectionViewCell;
 @class UICollectionReusableView;
-@class UICollectionViewLayout;
 
 @interface PlayerListViewController (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
@@ -708,7 +755,6 @@ SWIFT_CLASS("_TtC12PlayerModule16ScoreboardBanner")
 @end
 
 
-@class UIScrollView;
 
 @interface ScoreboardBanner (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
