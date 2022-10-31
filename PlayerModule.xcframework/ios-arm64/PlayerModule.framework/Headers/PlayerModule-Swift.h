@@ -336,6 +336,7 @@ SWIFT_CLASS("_TtC12PlayerModule24PlayerListViewController")
 SWIFT_CLASS("_TtC12PlayerModule27PlayerProfileViewController")
 @interface PlayerProfileViewController : UIViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
