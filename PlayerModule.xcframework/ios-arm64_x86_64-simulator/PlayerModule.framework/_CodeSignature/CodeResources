@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rjO6Fue6y7hjArqDqCzH3LqyBBg=
+		6spX+6ErYOod8NJRcXGAFqgHn/A=
 		</data>
 		<key>LineUpCollectionViewCell.nib</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		w5mMZCix7N5sqLuj9tgsRcnpLWQ=
+		9pdnwAVXgHo59qgVvJfbMUZUFG4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ms5o1COoxO9+AkNbzKVAnRsU+LM=
+		04ZPe2bCyRPNNd3os6DfaB88pxc=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -182,19 +182,19 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ms5o1COoxO9+AkNbzKVAnRsU+LM=
+		04ZPe2bCyRPNNd3os6DfaB88pxc=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wEnqW9mQxIRu11txztk71SCip9E=
+		eKQ9CS+k6+A4lZ7u/WeXtuxB1oE=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		w5mMZCix7N5sqLuj9tgsRcnpLWQ=
+		9pdnwAVXgHo59qgVvJfbMUZUFG4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IxKiAYUA15CeyBEzZFMOpnLg0dY=
+		kJJG4Ow6xk1dTCryHf72yWRv8wM=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IxKiAYUA15CeyBEzZFMOpnLg0dY=
+		kJJG4Ow6xk1dTCryHf72yWRv8wM=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		del99Woah/C6+H07I2LFPazuDOI=
+		Fj3KC2Hb18mssMIW3+5c78QgvTE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>PlayerProfileFooterView.nib</key>
 		<data>
-		gH+UuDG2b+jckMauiwZgEhE03M4=
+		az6iALGUbNnqdwHDk98K/lkhZuU=
 		</data>
 		<key>PlayerProfileHeaderView.nib</key>
 		<data>
@@ -811,14 +811,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOIZwGTLy4V54kfYmaUz7zSZoDkmbNHr6D+g/Tza5cM=
+			3YYESPrHaNXk1oDrt8NQUK7dIc5wWL/QtZ+y1M3aHI0=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t17wXUze2r147D7ifrdqCcyvCkBXK994H45U/xAqlRc=
+			uSsmjTJnkKSXPZhdDesgEY4S++gNuLbQRopA5C0jv1k=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -832,28 +832,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t17wXUze2r147D7ifrdqCcyvCkBXK994H45U/xAqlRc=
+			uSsmjTJnkKSXPZhdDesgEY4S++gNuLbQRopA5C0jv1k=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HtLylLwQkRDy2HZBbda6vmfIIEYRVYNjm65chezXRWc=
+			FHMbShbmVrJEwturaf3Mku9tTgqoURnmM1YwcotY0jc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOIZwGTLy4V54kfYmaUz7zSZoDkmbNHr6D+g/Tza5cM=
+			3YYESPrHaNXk1oDrt8NQUK7dIc5wWL/QtZ+y1M3aHI0=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t4fEWJmZmjIoidH/ogNohugdGKEDGIPA/sR1/EsHaRk=
+			dezefcXoDPopiejD+88FOtuw+Oq8SOKOBfecCRTzgjw=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -867,14 +867,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t4fEWJmZmjIoidH/ogNohugdGKEDGIPA/sR1/EsHaRk=
+			dezefcXoDPopiejD+88FOtuw+Oq8SOKOBfecCRTzgjw=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XEZ2k45d8g45UVyt1Y6FCTUfhRNnPElWcX7glFKWnQ=
+			Pmf+NXXQvN+CsDspb3u/cVnC09UxuDnQy0ofK1VRu0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -923,7 +923,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kg6rD3oL9Xd/uxgQ25WmCJMrJRbuoRBKxW+IFkgw9BY=
+			L9lz7c1iHX9T6e7wtiLIIvAshiXYUTvTKUprdIMdKrU=
 			</data>
 		</dict>
 		<key>PlayerProfileHeaderView.nib</key>

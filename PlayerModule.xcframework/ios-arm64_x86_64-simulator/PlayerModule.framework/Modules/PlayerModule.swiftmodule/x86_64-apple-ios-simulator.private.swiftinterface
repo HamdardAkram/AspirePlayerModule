@@ -34,6 +34,8 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TournamentDetailViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var selectedTeam: PlayerModule.TeamData!
+  @_Concurrency.MainActor(unsafe) public var comingFromFlagsInScoreboard: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.TournamentDetailViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)

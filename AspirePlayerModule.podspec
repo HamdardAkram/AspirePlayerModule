@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = 'PlayerModule.xcframework'
 
-  spec.source       = { :http => "https://www.dropbox.com/s/oe46e74uqza3b4h/PlayerModule21.xcframework.zip?dl=1" }
+  spec.source       = { :http => "https://www.dropbox.com/s/kmef2chrwirrdfh/PlayerModule21.xcframework.zip?dl=1" }
 
 
     spec.dependency 'SwiftyJSON', '~> 4.0'
