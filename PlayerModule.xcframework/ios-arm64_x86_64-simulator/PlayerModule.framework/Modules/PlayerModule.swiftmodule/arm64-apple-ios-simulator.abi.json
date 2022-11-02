@@ -4823,19 +4823,19 @@
           },
           {
             "kind": "Var",
-            "name": "showStandings",
-            "printedName": "showStandings",
+            "name": "tournamentTabIndex",
+            "printedName": "tournamentTabIndex",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvp",
-            "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvp",
+            "usr": "s:12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivp",
+            "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivp",
             "moduleName": "PlayerModule",
             "declAttributes": [
               "Custom",
@@ -4852,14 +4852,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvg",
-                "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvg",
+                "usr": "s:12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivg",
+                "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivg",
                 "moduleName": "PlayerModule",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4876,14 +4876,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvs",
-                "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvs",
+                "usr": "s:12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivs",
+                "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivs",
                 "moduleName": "PlayerModule",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4900,8 +4900,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvM",
-                "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC13showStandingsSbvM",
+                "usr": "s:12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivM",
+                "mangledName": "$s12PlayerModule30TournamentDetailViewControllerC18tournamentTabIndexSivM",
                 "moduleName": "PlayerModule",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -11484,22 +11484,15 @@
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1521,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1559,
+      "offset": 1524,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1591,
+      "offset": 1556,
       "length": 1,
       "value": "0"
     },
@@ -12689,119 +12682,119 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1173,
+      "offset": 968,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 979,
       "length": 7,
       "value": "\"STATS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1010,
       "length": 7,
       "value": "\"TEAMS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1030,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1246,
+      "offset": 1041,
       "length": 9,
       "value": "\"SCORERS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1279,
+      "offset": 1074,
       "length": 9,
       "value": "\"MATCHES\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1096,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1107,
       "length": 10,
       "value": "\"STANDING\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 1152,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1163,
       "length": 9,
       "value": "\"SCORERS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1390,
+      "offset": 1185,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1401,
+      "offset": 1196,
       "length": 9,
       "value": "\"ASSISTS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1512,
+      "offset": 1307,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1554,
+      "offset": 1349,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1593,
+      "offset": 1388,
       "length": 1,
       "value": "0"
     },
@@ -12814,10 +12807,10 @@
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 990,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 994,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/Standings\/StandingHeaderView.swift",

@@ -160,7 +160,7 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?
   @_Concurrency.MainActor(unsafe) public var selectedTeam: PlayerModule.TeamData!
   @_Concurrency.MainActor(unsafe) public var comingFromFlagsInScoreboard: Swift.Bool
-  @_Concurrency.MainActor(unsafe) public var showStandings: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var tournamentTabIndex: Swift.Int
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.TournamentDetailViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)

@@ -170,11 +170,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lOrNFVX3fktBE6kwrAtIUvU7oPg=
+		CzS0KdG2gX3UOrtdS4fqElwcAGo=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BTtwg4gUFSBXrFukUFxtuoCrBvU=
+		vuq++3hMlD8Tco6H3OW126MnbN4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -182,19 +182,19 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BTtwg4gUFSBXrFukUFxtuoCrBvU=
+		vuq++3hMlD8Tco6H3OW126MnbN4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J3Tk4xu0TygNYsEjOy23pgGV6qI=
+		0WtvFre2NDharJ588mSOltGAsoM=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lOrNFVX3fktBE6kwrAtIUvU7oPg=
+		CzS0KdG2gX3UOrtdS4fqElwcAGo=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iYbAlyhMfqygRuPTW5QLwyGWYI0=
+		2ln6FpOaaRX1jVzOpzcQWRpHdk4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iYbAlyhMfqygRuPTW5QLwyGWYI0=
+		2ln6FpOaaRX1jVzOpzcQWRpHdk4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3o/N69QtHDj68UOTdH9uxc1jR8Y=
+		eviV7DjbuX5kXCtj0okOpFpXo1Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -478,7 +478,7 @@
 		</data>
 		<key>TournamentDetailHeaderView.nib</key>
 		<data>
-		5n/S8mhivBpNQHLaTUx3+y/dfwI=
+		AcCdd73JEhTcg2MvWKZtgJABo/A=
 		</data>
 		<key>TransferCollectionViewCell.nib</key>
 		<data>
@@ -811,14 +811,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jM0eJx6TvE9zdRjCkty92PqvnN2WlL+yHF/+hFZvN68=
+			CYRM2EN8NjBHf+LKMCd5BRNX2d+XBI+82MDIDhSiyfE=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AvuY3GdeghJusqL46qeV9Eo9XLOz2rKUPilO4FcwM2s=
+			upi9IUmfzc4hjvdyz7yN91jYD27NN8gwr50VZFPpn0k=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -832,28 +832,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AvuY3GdeghJusqL46qeV9Eo9XLOz2rKUPilO4FcwM2s=
+			upi9IUmfzc4hjvdyz7yN91jYD27NN8gwr50VZFPpn0k=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2RC6AzTWZlvx9e+PlbQDINaWXCfk+5MusSYaQnxlLH8=
+			5/Lm4HRxZyrd44UqqFuCcPwFVMNN0/1q5smVtnnoQRI=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jM0eJx6TvE9zdRjCkty92PqvnN2WlL+yHF/+hFZvN68=
+			CYRM2EN8NjBHf+LKMCd5BRNX2d+XBI+82MDIDhSiyfE=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			frtmrYH6KZeOBR/v4LnF3uQdVRE2mNimJc0H9JQ04b0=
+			73NQpbCY8iHkWI1n7R/sTAQTByX8ptkz1ChpvZyCSTY=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -867,14 +867,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			frtmrYH6KZeOBR/v4LnF3uQdVRE2mNimJc0H9JQ04b0=
+			73NQpbCY8iHkWI1n7R/sTAQTByX8ptkz1ChpvZyCSTY=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kHYDevMKWBmKyK9ugoWgZigsM4/X+S61+Bcgq5UxBI4=
+			fVI39T1kidJTdsgB3+paO1Ltf4k4wX7JozAVGgKyfGQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1350,7 +1350,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0itPorrL+OMCio5z1z5D/GzkvN74jTmnO8sFjZYF6Wc=
+			255Wv7HFwzktu0Mjo5Hs3pmBkp9qgNVdEKvZhtCMv4M=
 			</data>
 		</dict>
 		<key>TransferCollectionViewCell.nib</key>
