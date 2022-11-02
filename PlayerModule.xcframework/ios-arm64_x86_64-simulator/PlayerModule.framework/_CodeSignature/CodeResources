@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		dhpuym6Q4buEZRlI/wSnddm7o0Q=
+		r6Bc2f0+4r/PwVg/5KCnUrmmh9o=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>GoalTypeCollectionViewCell.nib</key>
 		<data>
-		hVWvv8caoOpn+58eA/Pa+j0FWNQ=
+		FFRzLxxQXOZsPmFAQfeDOW9yv/U=
 		</data>
 		<key>GoalsHeaderView.nib</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Headers/PlayerModule-Swift.h</key>
 		<data>
-		Uxe1NC5m84PC359NkJoCWXPo1pw=
+		qvbt3SXMNDipN9MY+O1GfVtNo1I=
 		</data>
 		<key>Headers/PlayerModule.h</key>
 		<data>
-		ujGH1zorNcH2kO8CaUuMPhYgDbs=
+		lz1K85QDs9pAOKAg/tl9KjQboD8=
 		</data>
 		<key>HomeMatchCollectionViewCell.nib</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ncz0gtbLFclzaODpqDQ7lrphZa8=
+		KIgNEQhUpx3LxpCTmZI0p7TTSPQ=
 		</data>
 		<key>LineUpCollectionViewCell.nib</key>
 		<data>
@@ -166,47 +166,47 @@
 		</data>
 		<key>MatchDetailHeaderView.nib</key>
 		<data>
-		8MuDaBCDDyaD/j4zahOHW/2N4bg=
+		n47ujD9R2/VhHu4UDxm8etS0icQ=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VAOXWuOpMli9o3l8O3or9yep1Oc=
+		lOrNFVX3fktBE6kwrAtIUvU7oPg=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		04ZPe2bCyRPNNd3os6DfaB88pxc=
+		BTtwg4gUFSBXrFukUFxtuoCrBvU=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vHTFq/jINGIONzxA0vnffaMjS2o=
+		nQoDfE+V4dm4EYJDjIY7F5ObcYk=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		04ZPe2bCyRPNNd3os6DfaB88pxc=
+		BTtwg4gUFSBXrFukUFxtuoCrBvU=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ozHkfxLO6MLo7Rle/qQzmCD1cMc=
+		J3Tk4xu0TygNYsEjOy23pgGV6qI=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VAOXWuOpMli9o3l8O3or9yep1Oc=
+		lOrNFVX3fktBE6kwrAtIUvU7oPg=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kJJG4Ow6xk1dTCryHf72yWRv8wM=
+		iYbAlyhMfqygRuPTW5QLwyGWYI0=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+Rhp2VxbHV6Mb/U15VrikpCCxxA=
+		IZJH1oG9J27FAjcQ3/jHpYIw4Ec=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kJJG4Ow6xk1dTCryHf72yWRv8wM=
+		iYbAlyhMfqygRuPTW5QLwyGWYI0=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zy/iOnlYcAH4s96QjZ38ISqSxHQ=
+		3o/N69QtHDj68UOTdH9uxc1jR8Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>PlayerProfileHeaderView.nib</key>
 		<data>
-		7f4cfT1lVYcQJ0eDoEtB2U2av/E=
+		ebQPf3TuVzb8XQNlwO/QmaLWVig=
 		</data>
 		<key>PositionHeaderView.nib</key>
 		<data>
@@ -394,7 +394,7 @@
 		</data>
 		<key>TeamAgainstHeaderView.nib</key>
 		<data>
-		jSIN/dH1dhafzvufHyrC2uVoOnU=
+		s/o0BT2jdXIV8h7yqxpoXlsKDyk=
 		</data>
 		<key>TeamCollectionViewCell.nib</key>
 		<data>
@@ -434,7 +434,7 @@
 		</data>
 		<key>TeamsH2HCollectionViewCell.nib</key>
 		<data>
-		upnFGMmWyIgIf6RK0ck34Zb/fY4=
+		dh3OrlMCW1WmpCtzAmmI83nMN+4=
 		</data>
 		<key>TeamsHeaderView.nib</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>TransferCollectionViewCell.nib</key>
 		<data>
-		BQYbF6gGJZ6vLLwg6fAOIUjzQ+I=
+		fIF5ILjdetQQQPEpduZMMdpbOgo=
 		</data>
 		<key>ar.lproj/LaunchScreen.strings</key>
 		<dict>
@@ -538,7 +538,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJt5WOcbACqW4mabp3VOy1Ao+wmDYEDsC4YdRIX3Jqk=
+			Od6bSWa8Uuzl2SHEFjbAxAIkEM4dPYrNUM0uNptK9yo=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -608,7 +608,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+AhVAIWKQHSHX7MqNzMHVzirburla7OShGr15B0uRg=
+			91cc/4iXH9JtoUpcFx/l4D40h3h/PfcM8725gzjYzr0=
 			</data>
 		</dict>
 		<key>GoalsHeaderView.nib</key>
@@ -762,14 +762,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VDMFz3DeGbWDCrE2HmYiti8ceqrC8CWBo/Zqe3dWE1M=
+			UBDDzjXLq4XKscSgwQO0i8vlL7P1X0tSnkW7pYdpTaY=
 			</data>
 		</dict>
 		<key>Headers/PlayerModule.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R8fO9XQQB6zI/8xXfyHpKz0LiK+hb4bTm6EVHkLLqxA=
+			2Xdt0LpJ77V9YqrHFij5UN+HhRlvRH/x2yHOPbTw9wg=
 			</data>
 		</dict>
 		<key>HomeMatchCollectionViewCell.nib</key>
@@ -804,77 +804,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rBPl9RFeW2bH20/8Q2dF27hpV0E5HNhw4maCEFPRKqc=
+			iuqf3YO/HkGpzpTHTqb/LnSkTEjk9a/LgzSVONU3lqk=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xFgdkMu4We4IsKnRRtkdWbTYd9+CVUtq73dJJnuPZIQ=
+			jM0eJx6TvE9zdRjCkty92PqvnN2WlL+yHF/+hFZvN68=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uSsmjTJnkKSXPZhdDesgEY4S++gNuLbQRopA5C0jv1k=
+			AvuY3GdeghJusqL46qeV9Eo9XLOz2rKUPilO4FcwM2s=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/NZZlXBtaf6T2Zz6kvfw6pL6OdCBIpgB4kwNlG566d8=
+			MVqgC2ia62RzS3SHCovBkryBJMOZhsMr2cDEOMV2F5k=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uSsmjTJnkKSXPZhdDesgEY4S++gNuLbQRopA5C0jv1k=
+			AvuY3GdeghJusqL46qeV9Eo9XLOz2rKUPilO4FcwM2s=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YO1Sz0c82ivqXfMmgcU1BN/04L86Jpqw1BlHyS/f8BQ=
+			2RC6AzTWZlvx9e+PlbQDINaWXCfk+5MusSYaQnxlLH8=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xFgdkMu4We4IsKnRRtkdWbTYd9+CVUtq73dJJnuPZIQ=
+			jM0eJx6TvE9zdRjCkty92PqvnN2WlL+yHF/+hFZvN68=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dezefcXoDPopiejD+88FOtuw+Oq8SOKOBfecCRTzgjw=
+			frtmrYH6KZeOBR/v4LnF3uQdVRE2mNimJc0H9JQ04b0=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WaEtWOvlaSl9cGqj5jeB05pqdPQbT4Li7u8wH9hKoGQ=
+			AfxQ2fA5JLDJZt3TW3C01sUCY0asOzvdpu53+bjM1rc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dezefcXoDPopiejD+88FOtuw+Oq8SOKOBfecCRTzgjw=
+			frtmrYH6KZeOBR/v4LnF3uQdVRE2mNimJc0H9JQ04b0=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QgBhWinpzbKbA04VfIzGQj4U4+t/5VnMKKP8ycppDGA=
+			kHYDevMKWBmKyK9ugoWgZigsM4/X+S61+Bcgq5UxBI4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -930,7 +930,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j65ELowoP1BjqobgH+YReFR74Lh+QbwOvys/HkhDDmM=
+			ykj+mziz4dpt1ZMw2PZKzoyKE3cnVbXfjilavlUzEsQ=
 			</data>
 		</dict>
 		<key>PositionHeaderView.nib</key>
@@ -1203,7 +1203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7LQJ0lEKxx0pBHgoGXgVxQ50MFn8z3aOMwxSVkdqfRw=
+			tUQsGijB9Zw6fbz8/j/Jr2D+2fF4siHVrwrwOxVpEyc=
 			</data>
 		</dict>
 		<key>TeamCollectionViewCell.nib</key>
@@ -1273,7 +1273,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PjfgYQGLbtA2RQ98Wm2rF9EmFTzaeRDVSairnQLVfqw=
+			owVnO1sqNAeD3osrUjhFs4NYVhkY3Tyc/UFS6w+/tTk=
 			</data>
 		</dict>
 		<key>TeamsHeaderView.nib</key>
@@ -1357,7 +1357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iJJ2ocuE1N2omlJ3vmRukJGtuIKcVeTf4hFVNHouqc=
+			CooqVXjNwGm4lF35ieFSl3K5WHVOJr7xvnELZUspemo=
 			</data>
 		</dict>
 		<key>ar.lproj/LaunchScreen.strings</key>
