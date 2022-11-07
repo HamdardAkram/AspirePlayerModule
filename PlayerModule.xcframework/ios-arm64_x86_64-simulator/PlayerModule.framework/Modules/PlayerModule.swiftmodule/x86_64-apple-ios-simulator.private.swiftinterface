@@ -155,6 +155,7 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
   func follow(title: Swift.Bool, playerId: Swift.String, playerArabicName: Swift.String, playerEnglishName: Swift.String, completion: @escaping (Swift.Bool) -> ())
   func getFollowUnfollowStatus(playerId: Swift.String, completion: @escaping (Swift.Bool) -> ())
   func setPlayerName(englishName: Swift.String, arabicName: Swift.String, playerVC: PlayerModule.PlayerProfileViewController)
+  func setTeamName(englishName: Swift.String, arabicName: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TournamentDetailViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?
