@@ -46,11 +46,11 @@
 		</data>
 		<key>GoalMinutesCollectionViewCell.nib</key>
 		<data>
-		mLdg0pqh1vPXWyJl5a/saBtxwDQ=
+		AjZcK6Oaqh198/RVqfHQZnp+0kE=
 		</data>
 		<key>GoalTypeCollectionViewCell.nib</key>
 		<data>
-		b54SLXw10GUh7gCl+h4kM5W9L/4=
+		7u7xdzGrR6M5MgrMT9xRrq4R0eo=
 		</data>
 		<key>GoalsHeaderView.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>HomeMatchCollectionViewCell.nib</key>
 		<data>
-		B4P95H3kZfyUCVA//Jg9acsfFco=
+		zMtJJcLYccb7Nq2KQqE020AtWoc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>LineUpCollectionViewCell.nib</key>
 		<data>
-		93p3FCJWMFD5U7G3+uj63OmHsME=
+		e12H29Ycv6vGj/Z3CkFsCsVPgV0=
 		</data>
 		<key>LineUpSectionHeaderView.nib</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1QB2cfEQyCoPwpUqntHtIqZcxnE=
+		WzL9WYKeAVIjtAMPvWdvnk0kmec=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -186,11 +186,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1frcKfpjkexGkDO/j46RwJoKpc4=
+		oFEXvYFq8IrLgnCT+YB9S+zuHYE=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1QB2cfEQyCoPwpUqntHtIqZcxnE=
+		WzL9WYKeAVIjtAMPvWdvnk0kmec=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hbqxtED9qzDBIo2rJ+1aKAuWH2o=
+		SLfDNXnTaIe+SvDL+k9ZsewLRW0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>PlayerCardCollectionViewCell.nib</key>
 		<data>
-		wlzjefYHSZhFGN6FEgD6s6aR3hs=
+		C9dtzq/mqdmRHv5k59fLw5nxoKc=
 		</data>
 		<key>PlayerCards.nib</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>PlayerListCollectionViewCell.nib</key>
 		<data>
-		/wrFeVk2C9prWBWvg8CEA4Mm2ak=
+		jY2zLo+zmSONdkt//NTcNYDjprI=
 		</data>
 		<key>PlayerProfileFooterView.nib</key>
 		<data>
@@ -358,7 +358,7 @@
 		</data>
 		<key>ScoreboardCollectionViewCell.nib</key>
 		<data>
-		Yn2Mc8u3z94SV9OUCApm5M9GELg=
+		gKWNpCjeePeh8krmOUe9GfGFwHc=
 		</data>
 		<key>ScorerCollectionViewCell.nib</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>StatsCollectionViewCell.nib</key>
 		<data>
-		b3NkgKToRjNZ9wVKfU5hMKaG9zg=
+		oGPcV5L5yHNBJbqrQaP+vgEDNp4=
 		</data>
 		<key>SubTabCollectionViewCell.nib</key>
 		<data>
@@ -390,15 +390,15 @@
 		</data>
 		<key>TeamAgainstCollectionViewCell.nib</key>
 		<data>
-		S9TmsJuc9LViGiNGtdCTXlgdVJQ=
+		JLazW9UtaXfwZVnK6MlH4uwMrK4=
 		</data>
 		<key>TeamAgainstHeaderView.nib</key>
 		<data>
-		r/A/6BKwEpZqmyx0CU87/XhC1r4=
+		Tr1G87Zr1BfQsVL/2J9CrtTJHsQ=
 		</data>
 		<key>TeamCollectionViewCell.nib</key>
 		<data>
-		xE9BHRBIGfnGH2m8097pOcrkD2Y=
+		+AWCetPam7paRB4cjrdCA/2FZyE=
 		</data>
 		<key>Teams.storyboardc/Info.plist</key>
 		<data>
@@ -442,11 +442,11 @@
 		</data>
 		<key>TimelineGoalCollectionViewCell.nib</key>
 		<data>
-		CZpcGH7YHOjyj1xwYyAL3bIBcgk=
+		WMrqXIRN+vhmbLquQIPhZrAHu9A=
 		</data>
 		<key>TitlesCollectionViewCell.nib</key>
 		<data>
-		YuUUGvbzqh+emTH4HSZbUqX5OSs=
+		Gr1kZTzHChuQLXVmpwO50I5iNjI=
 		</data>
 		<key>Tournament.storyboardc/Info.plist</key>
 		<data>
@@ -605,14 +605,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			URwyzOcMZ2Pmpo/aPC8NEc4nHbLUYU4kZrP2QvCBwec=
+			7S31WFgY2ohaTbPA6XqDx+IDMUaDWdJCFGZS/AYk3HQ=
 			</data>
 		</dict>
 		<key>GoalTypeCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PNFrChrHXyN3L4wZPsMJgC6HsFeEn2mqGyN7MUHqmwI=
+			rA1rBl5GljMd3mTSz5fyDGWPqWsPaSLYVQWpLRpZSeg=
 			</data>
 		</dict>
 		<key>GoalsHeaderView.nib</key>
@@ -780,14 +780,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wh2v9N/ehL9Q6OdoKh1dNMlxUBoiky4OU6Q6MwUoie4=
+			QiYNj2tYsdIzdqbo6rqInQ7740PrIlb6QZ2S95ENQ+M=
 			</data>
 		</dict>
 		<key>LineUpCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bG0Vlhk88Hx8AkgVZF1h9+pbjBN+SUOIPYPiQF33Vnw=
+			/o2HV6jg57jXFxOcrRjhfEetp5Yu0FkyctLBwBsxjfk=
 			</data>
 		</dict>
 		<key>LineUpSectionHeaderView.nib</key>
@@ -815,7 +815,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GUXfGry1cqd0OmaX/ogNPDAfMOYMe7skH7CLkcIUPZY=
+			DMin7KCH3pDMmfyikM6LR2BBKzK5kaHRIJV/+bB9z24=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -843,14 +843,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a9yLUZnReRa6VZeHBzrwLIlXbgK/7dMU2CR3dLVjtMQ=
+			dZT4cuSMgQrFTr1zq8uHJkjaUjY3TvXFn3VrEkHCpfI=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GUXfGry1cqd0OmaX/ogNPDAfMOYMe7skH7CLkcIUPZY=
+			DMin7KCH3pDMmfyikM6LR2BBKzK5kaHRIJV/+bB9z24=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -878,7 +878,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccEXstVaXC87Z8FWyYpwXuJgz8hgseCQi0GwEZ031iU=
+			M8hBYSUbeQt2rZJ3kd+V898P+5YVl1G4TKv73nApi+s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -899,7 +899,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ql0hJW0yNvtzZhZBDa1LgMKFbzdlELSaDlHIVZwnZp8=
+			ovNrB2xt+WfiPL+4BIo94uilQL5HspzGLKTC/68f2aw=
 			</data>
 		</dict>
 		<key>PlayerCards.nib</key>
@@ -920,7 +920,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8beS/6viZ+Qq4OwxO/0P5Q8xhUwtImfEYM4npDkLQrU=
+			AaafPqoNBhmMENnb34/HyDw6WwEf5MEGlOybQqc/z9w=
 			</data>
 		</dict>
 		<key>PlayerProfileFooterView.nib</key>
@@ -1144,7 +1144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L+te10uUr6mk84XNGqkjeG1j1eXcB2oWy8YxSKCnIBs=
+			qwmJg8vxd/unL42rleOm8636U/4fwgusMxOBTgEe8pM=
 			</data>
 		</dict>
 		<key>ScorerCollectionViewCell.nib</key>
@@ -1179,7 +1179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bX6vQ35pgRp3w+F8Gs08sO0+zkZcBxyU+jNXp1uXm3s=
+			alHzsGpBufQw83dECOiXc3iIcPZYa8ixAIPqppPff2s=
 			</data>
 		</dict>
 		<key>SubTabCollectionViewCell.nib</key>
@@ -1200,21 +1200,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wx9ZwDb3tfZF0zIGCCUJKiPjCzCadJVB7DnRlw+qwD0=
+			zrHt+d/vArkE1sDPE29NnMuavqXfhTuCMjMdLYz20zQ=
 			</data>
 		</dict>
 		<key>TeamAgainstHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DuxFjiflMeOw3/qMDiDx0n7EyEOHlol8nfsKVfJlg3k=
+			K+EheS8MypaOJA1xn1vBJO97Y0tJVN6LFO/GQ0kyheE=
 			</data>
 		</dict>
 		<key>TeamCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i09fqNTbeQQ+wvL2qKXZtyua++WwlHZKWUVQ8MGpw2Y=
+			Je2PbM3l7M5I+HvPdLVJLbnP89yg82HaFtXWpnaxQ7w=
 			</data>
 		</dict>
 		<key>Teams.storyboardc/Info.plist</key>
@@ -1291,14 +1291,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFYUmRuuPxzKpScYx0x2kurkmpKw/44L1dhPRYwdx1w=
+			VZm764mp+97y2xzao5EhXm2SzVz/GvT2/8DIxKK2J2s=
 			</data>
 		</dict>
 		<key>TitlesCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ipo0PGUqCHYLCyXLyXtO5Vli7mB3aAv1Zjxy0bWoMn8=
+			qd2pZDKDdF8UKy8D615kERmMEuq9aeA2sSB6TBQaUsw=
 			</data>
 		</dict>
 		<key>Tournament.storyboardc/Info.plist</key>

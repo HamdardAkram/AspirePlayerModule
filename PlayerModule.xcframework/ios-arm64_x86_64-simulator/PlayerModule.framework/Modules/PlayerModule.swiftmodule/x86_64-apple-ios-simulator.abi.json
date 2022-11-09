@@ -7873,6 +7873,20 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/LineUps\/LineUpCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 11,
+      "value": "\"top_frame\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/LineUps\/LineUpCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1405,
+      "length": 14,
+      "value": "\"bottom_frame\""
+    },
+    {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Utitlites\/Extensions\/Date.swift",
       "kind": "StringLiteral",
       "offset": 286,
@@ -11213,10 +11227,17 @@
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1952,
-      "length": 2,
-      "value": "14"
+      "kind": "StringLiteral",
+      "offset": 2085,
+      "length": 11,
+      "value": "\"top_frame\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 2372,
+      "length": 14,
+      "value": "\"bottom_frame\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailViewController.swift",
@@ -13943,15 +13964,29 @@
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Goals\/GoalTypeCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 11,
+      "value": "\"top_frame\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Goals\/GoalTypeCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 14,
+      "value": "\"bottom_frame\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Goals\/GoalTypeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5389,
+      "offset": 5973,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Goals\/GoalTypeCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5419,
+      "offset": 6003,
       "length": 5,
       "value": "false"
     },
@@ -15778,49 +15813,63 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 855,
+      "offset": 980,
       "length": 9,
       "value": "\"#d6d6d6\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 874,
+      "offset": 999,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 882,
+      "offset": 1007,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 888,
+      "offset": 1013,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 897,
+      "offset": 1022,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 909,
+      "offset": 1034,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1238,
+      "length": 13,
+      "value": "\"color_image\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 14,
+      "value": "\"bottom_frame\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1124,
+      "offset": 2004,
       "length": 5,
       "value": "false"
     },
@@ -15848,70 +15897,70 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1435,
+      "offset": 1480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1721,
+      "offset": 1766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1781,
+      "offset": 1826,
       "length": 12,
       "value": "\"arrow_down\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1965,
       "length": 10,
       "value": "\"arrow_up\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1523,
+      "offset": 1568,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2287,
+      "offset": 2332,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4098,
+      "offset": 4278,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4726,
+      "offset": 4906,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4770,
+      "offset": 4950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/TeamAgainst\/TeamAgainstHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7816,
+      "offset": 8401,
       "length": 1,
       "value": "1"
     },
