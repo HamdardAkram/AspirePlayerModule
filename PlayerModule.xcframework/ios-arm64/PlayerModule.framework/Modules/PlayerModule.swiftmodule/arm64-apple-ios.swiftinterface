@@ -159,6 +159,7 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TournamentDetailViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var teams: [PlayerModule.TeamData]!
   @_Concurrency.MainActor(unsafe) public var selectedTeam: PlayerModule.TeamData!
   @_Concurrency.MainActor(unsafe) public var comingFromFlagsInScoreboard: Swift.Bool
   @_Concurrency.MainActor(unsafe) public var tournamentTabIndex: Swift.Int
@@ -171,6 +172,11 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
 extension PlayerModule.TournamentDetailViewController : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension PlayerModule.TournamentDetailViewController : PlayerModule.ScoreboardBannerDelegate {
+  @_Concurrency.MainActor(unsafe) public func showMatchDetail(match: PlayerModule.Match)
+  @_Concurrency.MainActor(unsafe) public func showTeamsPlayers(teams: [PlayerModule.TeamData], currentTeam: PlayerModule.TeamData)
+  @_Concurrency.MainActor(unsafe) public func failedToDownload(error: Swift.Error)
 }
 extension Swift.KeyedDecodingContainer {
   public func decodeSafelyIfPresent<T>(_ key: Swift.KeyedDecodingContainer<K>.Key) -> T? where T : Swift.Decodable

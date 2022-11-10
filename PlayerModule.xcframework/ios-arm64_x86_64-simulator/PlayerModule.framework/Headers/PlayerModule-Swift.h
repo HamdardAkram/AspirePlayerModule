@@ -423,6 +423,7 @@ SWIFT_CLASS("_TtC12PlayerModule30TournamentDetailViewController")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -841,6 +842,7 @@ SWIFT_CLASS("_TtC12PlayerModule30TournamentDetailViewController")
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
