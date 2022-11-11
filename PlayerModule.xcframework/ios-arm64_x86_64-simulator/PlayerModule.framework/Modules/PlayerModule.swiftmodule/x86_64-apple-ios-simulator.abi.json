@@ -4538,6 +4538,27 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeTeamName",
+            "printedName": "removeTeamName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule38TournamentDetailViewControllerDelegateP14removeTeamNameyyF",
+            "mangledName": "$s12PlayerModule38TournamentDetailViewControllerDelegateP14removeTeamNameyyF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.TournamentDetailViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.TournamentDetailViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -11783,42 +11804,42 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 1536,
+      "offset": 1557,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 1568,
+      "offset": 1589,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1652,
+      "offset": 1673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1697,
+      "offset": 1718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1735,
+      "offset": 1756,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1767,
+      "offset": 1788,
       "length": 1,
       "value": "0"
     },
@@ -13309,21 +13330,21 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
       "kind": "Array",
-      "offset": 955,
+      "offset": 981,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1048,
+      "offset": 1074,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Documents\/iOS_QatarStadiums_App\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1095,
+      "offset": 1121,
       "length": 1,
       "value": "1"
     },
