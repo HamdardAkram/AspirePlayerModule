@@ -254,6 +254,7 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
+
 SWIFT_CLASS("_TtC12PlayerModule18LocalizationSystem")
 @interface LocalizationSystem : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -687,6 +688,7 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
 
 SWIFT_CLASS("_TtC12PlayerModule18LocalizationSystem")
 @interface LocalizationSystem : NSObject
