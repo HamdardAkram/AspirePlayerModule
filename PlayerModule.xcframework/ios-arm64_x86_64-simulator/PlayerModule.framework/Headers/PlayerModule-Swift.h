@@ -362,6 +362,7 @@ SWIFT_CLASS("_TtC12PlayerModule16ScoreboardBanner")
 
 
 
+
 @interface ScoreboardBanner (SWIFT_EXTENSION(PlayerModule)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -794,6 +795,7 @@ SWIFT_CLASS("_TtC12PlayerModule16ScoreboardBanner")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

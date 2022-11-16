@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PlayerModule
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
+import CloudKit
 import Foundation
 import MultiProgressView
 import PieCharts
@@ -15,6 +16,7 @@ import UIKit
 import VideoToolbox
 import _Concurrency
 import _StringProcessing
+import youtube_ios_player_helper_swift
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PlayerProfileViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
@@ -175,6 +177,7 @@ extension PlayerModule.TournamentDetailViewController : UIKit.UITableViewDataSou
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
 }
 extension PlayerModule.TournamentDetailViewController : PlayerModule.ScoreboardBannerDelegate {
+  @_Concurrency.MainActor(unsafe) public func setScoreboardHeight(newHeight: CoreFoundation.CGFloat)
   @_Concurrency.MainActor(unsafe) public func showMatchDetail(match: PlayerModule.Match)
   @_Concurrency.MainActor(unsafe) public func showTeamsPlayers(teams: [PlayerModule.TeamData], currentTeam: PlayerModule.TeamData)
   @_Concurrency.MainActor(unsafe) public func failedToDownload(error: Swift.Error)
@@ -191,6 +194,7 @@ public protocol ScoreboardBannerDelegate : AnyObject {
   func showMatchDetail(match: PlayerModule.Match)
   func showTeamsPlayers(teams: [PlayerModule.TeamData], currentTeam: PlayerModule.TeamData)
   func failedToDownload(error: Swift.Error)
+  func setScoreboardHeight(newHeight: CoreFoundation.CGFloat)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ScoreboardBanner : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.ScoreboardBannerDelegate?
