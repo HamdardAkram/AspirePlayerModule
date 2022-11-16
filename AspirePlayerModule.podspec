@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AspirePlayerModule"
-  spec.version      = "0.0.38"
+  spec.version      = "0.0.39"
   spec.summary      = "A player information library."
 
   
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = 'PlayerModule.xcframework'
 
-  spec.source       = { :http => "https://www.dropbox.com/s/tt04dl21eq4lvut/PlayerModule38.xcframework.zip?dl=1" }
+  spec.source       = { :http => "https://www.dropbox.com/s/k1qymmx9k7zzwf5/PlayerModule39.xcframework.zip?dl=1" }
 
 
     spec.dependency 'SwiftyJSON', '~> 4.0'
