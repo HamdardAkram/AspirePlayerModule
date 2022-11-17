@@ -46,7 +46,7 @@
 		</data>
 		<key>FullScreenYoutubePlayer.nib</key>
 		<data>
-		p0ajGiCtDTC5NiaKNzKNRr0ha/E=
+		rf2lkld4EDvPPgNmDh9DqXIRTUM=
 		</data>
 		<key>GoalMinutesCollectionViewCell.nib</key>
 		<data>
@@ -174,11 +174,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		V2M1qxQ0gEe1j/TvTsTt5Y01M3c=
+		Gynf9EABC3Q5VsBJIbSmJjzebmU=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EbGoiJfcG7CAZMD7U2yx3LPDKWw=
+		w6fnbtHhbkAzis8hjGZ1bjoUATI=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -186,19 +186,19 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EbGoiJfcG7CAZMD7U2yx3LPDKWw=
+		w6fnbtHhbkAzis8hjGZ1bjoUATI=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4O4R6L6LuzC9nVdZyKQCqs6pe3U=
+		cFnwdhuJokqe0zo7Z4Momq9V+90=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		V2M1qxQ0gEe1j/TvTsTt5Y01M3c=
+		Gynf9EABC3Q5VsBJIbSmJjzebmU=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		52ekZDUq5K7yFCGTe6+EerEIUIM=
+		dDZHKwFBfYKbn0iLkx6pfjwTI+Y=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -206,11 +206,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		52ekZDUq5K7yFCGTe6+EerEIUIM=
+		dDZHKwFBfYKbn0iLkx6pfjwTI+Y=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ht/waf30tGOwrUYZhOm6rAJb4xk=
+		0nLPmP3TBa4MQvbZwOEseGvXVks=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -617,7 +617,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kuv7XXBdwdvXdZxIDj6BAyShIRa9Ce5A8y9AwDmApY=
+			7OJm+EVPeoqTrZkw1gByRIuyd3ENs3+cF6vnRSpuQks=
 			</data>
 		</dict>
 		<key>GoalMinutesCollectionViewCell.nib</key>
@@ -834,14 +834,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mDVzSR4VLgF38jtZ1K18+0mvjf7oC9X5I6eO6hBOeI=
+			MXetS652p3cQbuC19xlsX9CD2wRJuluEfQVZj08Kk7o=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ljp/pQHFSD+LpG7oN3EXFdodRp4bjQWRoXq05XBoyc8=
+			r/2JR9CkJCShRbKaYcoTCGpPO3/6dkTJaOicLVZOmQY=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -855,28 +855,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ljp/pQHFSD+LpG7oN3EXFdodRp4bjQWRoXq05XBoyc8=
+			r/2JR9CkJCShRbKaYcoTCGpPO3/6dkTJaOicLVZOmQY=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KQxHcRmMmTxOW95Wa25xfFOML7k17WqarHIRAdgHbtk=
+			XRxMf6o2pc8lu6qgoL3VvXxfakgY9j9rr981F9RoVck=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mDVzSR4VLgF38jtZ1K18+0mvjf7oC9X5I6eO6hBOeI=
+			MXetS652p3cQbuC19xlsX9CD2wRJuluEfQVZj08Kk7o=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaxcqNlFGr0uiz/qYiYvC1L7Yp8EQjYX71aSVQKxCto=
+			nkcjL0O3zDO8JhE5wXnGeNpflT+UBMK19WTZYFQuQXI=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -890,14 +890,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaxcqNlFGr0uiz/qYiYvC1L7Yp8EQjYX71aSVQKxCto=
+			nkcjL0O3zDO8JhE5wXnGeNpflT+UBMK19WTZYFQuQXI=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/uWTau/Ym55Nyaj+9BVkYhdH8Hgq2BRzvJYAVpE4p6A=
+			v2Xcr2vxmzU33Oix67/Wf17a5Xpx6O1M8RFb0yIHhW8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

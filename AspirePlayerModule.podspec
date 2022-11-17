@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AspirePlayerModule"
-  spec.version      = "0.0.39"
+  spec.version      = "0.0.40"
   spec.summary      = "A player information library."
 
   
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = 'PlayerModule.xcframework'
 
-  spec.source       = { :http => "https://www.dropbox.com/s/k1qymmx9k7zzwf5/PlayerModule39.xcframework.zip?dl=1" }
+  spec.source       = { :http => "https://www.dropbox.com/s/nti0fgcjiarmv75/PlayerModule40.xcframework.zip?dl=1" }
 
 
     spec.dependency 'SwiftyJSON', '~> 4.0'
@@ -33,6 +33,6 @@ Pod::Spec.new do |spec|
     spec.dependency 'Alamofire'
     spec.dependency 'PieCharts'
     spec.dependency 'MultiProgressView'
-    spec.dependency 'youtube-ios-player-helper-swift'
+    spec.dependency 'YoutubePlayerView'
 
 end

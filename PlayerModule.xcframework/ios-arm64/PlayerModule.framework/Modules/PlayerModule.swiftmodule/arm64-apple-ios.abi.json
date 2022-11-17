@@ -6973,8 +6973,8 @@
       },
       {
         "kind": "Import",
-        "name": "youtube_ios_player_helper_swift",
-        "printedName": "youtube_ios_player_helper_swift",
+        "name": "YoutubePlayerView",
+        "printedName": "YoutubePlayerView",
         "declKind": "Import",
         "moduleName": "PlayerModule"
       },
@@ -20114,7 +20114,7 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/LiveStream\/FullScreenYoutubePlayer.swift",
       "kind": "Dictionary",
-      "offset": 513,
+      "offset": 504,
       "length": 294,
       "value": "[(\"modestbranding\", \"0\"), (\"controls\", \"1\"), (\"playsinline\", \"1\"), (\"autohide\", \"1\"), (\"showinfo\", \"0\"), (\"autoplay\", \"1\"), (\"fs\", \"0\"), (\"rel\", \"0\"), (\"loop\", \"1\"), (\"enablejsapi\", \"1\"), (\"iv_load_policy\", \"3\")]"
     },

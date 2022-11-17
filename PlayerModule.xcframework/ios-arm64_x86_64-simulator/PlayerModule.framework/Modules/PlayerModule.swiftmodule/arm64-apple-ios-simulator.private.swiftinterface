@@ -14,9 +14,9 @@ import Swift
 import SwiftUI
 import UIKit
 import VideoToolbox
+import YoutubePlayerView
 import _Concurrency
 import _StringProcessing
-import youtube_ios_player_helper_swift
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PlayerProfileViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
