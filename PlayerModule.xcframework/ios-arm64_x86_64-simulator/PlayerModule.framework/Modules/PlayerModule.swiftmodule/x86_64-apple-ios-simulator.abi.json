@@ -722,6 +722,27 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideCardView",
+            "printedName": "hideCardView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule0A13CardsDelegateP12hideCardViewyyF",
+            "mangledName": "$s12PlayerModule0A13CardsDelegateP12hideCardViewyyF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.PlayerCardsDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.PlayerCardsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -11595,14 +11616,14 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Cards\/PlayerCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 405,
+      "offset": 429,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Cards\/PlayerCards.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 487,
       "length": 1,
       "value": "4"
     },
@@ -12673,51 +12694,58 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1342,
+      "offset": 1548,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1465,
+      "offset": 1671,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1711,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1620,
+      "offset": 1826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1670,
+      "offset": 1876,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Dictionary",
-      "offset": 1719,
+      "offset": 1925,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1840,
-      "length": 2,
-      "value": "[]"
+      "offset": 2046,
+      "length": 16,
+      "value": "[\"\", \"\", \"\", \"\"]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2107,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Stats\/StatsCollectionViewCell.swift",
@@ -14382,97 +14410,97 @@
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
       "offset": 1895,
-      "length": 2,
-      "value": "[]"
+      "length": 16,
+      "value": "[\"\", \"\", \"\", \"\"]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1930,
+      "offset": 1944,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1962,
+      "offset": 1976,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 1994,
+      "offset": 2008,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2035,
+      "offset": 2049,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2073,
+      "offset": 2087,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2109,
+      "offset": 2123,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2147,
+      "offset": 2161,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2189,
+      "offset": 2203,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 2237,
+      "offset": 2251,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 2272,
+      "offset": 2286,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "Array",
-      "offset": 2307,
+      "offset": 2321,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2344,
+      "offset": 2358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileFooterView.swift",
       "kind": "FloatLiteral",
-      "offset": 2386,
+      "offset": 2400,
       "length": 3,
       "value": "5.0"
     },
@@ -15523,839 +15551,13 @@
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
       "offset": 860,
-      "length": 10,
-      "value": "\"Stadiums\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 905,
-      "length": 19,
-      "value": "\"About the Stadium\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 957,
-      "length": 14,
-      "value": "\"Stadium Park\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1006,
-      "length": 16,
-      "value": "\"Stadium Design\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1065,
-      "length": 24,
-      "value": "\"Stadium Sustainibility\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 16,
-      "value": "\"Stadium Legacy\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1172,
-      "length": 19,
-      "value": "\"Important Numbers\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1222,
-      "length": 10,
-      "value": "\"Location\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1262,
-      "length": 10,
-      "value": "\"Fan Zone\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 14,
-      "value": "\"Stadium Park\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1350,
-      "length": 10,
-      "value": "\"View All\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1394,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1424,
-      "length": 6,
-      "value": "\"News\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1459,
-      "length": 8,
-      "value": "\"Events\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1528,
-      "length": 10,
-      "value": "\"Call Now\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1572,
-      "length": 10,
-      "value": "\"360 View\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1663,
-      "length": 18,
-      "value": "\"Medical Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1737,
-      "length": 23,
-      "value": "\"First Aid Information\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1818,
-      "length": 25,
-      "value": "\"Important Phone Numbers\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1887,
-      "length": 9,
-      "value": "\"Clinics\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1944,
-      "length": 21,
-      "value": "\"Disability Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2009,
-      "length": 16,
-      "value": "\"emergency call\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2127,
-      "length": 12,
-      "value": "\"disability\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2175,
-      "length": 21,
-      "value": "\"Disability Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2235,
-      "length": 10,
-      "value": "\"Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2290,
-      "length": 17,
-      "value": "\"Assistance Call\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2353,
-      "length": 39,
-      "value": "\"Location Services - Ramps & Elevators\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2473,
-      "length": 20,
-      "value": "\"Volunteer Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2575,
-      "length": 21,
-      "value": "\"Wheelchair Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2642,
-      "length": 37,
-      "value": "\"Location where wheelchairs are kept\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2765,
-      "length": 14,
-      "value": "\"Parking Name\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2821,
-      "length": 14,
-      "value": "\"Parking Type\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2884,
-      "length": 21,
-      "value": "\"Alternative Parking\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 2985,
-      "length": 10,
-      "value": "\"Fan Zone\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3041,
-      "length": 12,
-      "value": "\"Location: \""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3099,
-      "length": 12,
-      "value": "\"Activities\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3164,
-      "length": 19,
-      "value": "\"Entry Requirement\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3235,
-      "length": 18,
-      "value": "\"Prohibited Items\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3297,
-      "length": 10,
-      "value": "\"Contacts\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3395,
-      "length": 21,
-      "value": "\"Safety and Security\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3497,
-      "length": 14,
-      "value": "\"Stadium Park\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3547,
-      "length": 7,
-      "value": "\"Trees\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3628,
-      "length": 15,
-      "value": "\"Notifications\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3722,
-      "length": 16,
-      "value": "\"Other Location\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3780,
-      "length": 14,
-      "value": "\"Other Venues\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3822,
-      "length": 24,
-      "value": "\"Qatar 2022™ Stadiums\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3883,
-      "length": 5,
-      "value": "\"QAR\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3919,
-      "length": 15,
-      "value": "\"Venue Booking\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 3973,
-      "length": 13,
-      "value": "\"Find Venues\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4025,
-      "length": 20,
-      "value": "\"Venue Availability\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4083,
-      "length": 12,
-      "value": "\"Venue Tour\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4132,
-      "length": 17,
-      "value": "\"Select Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4185,
-      "length": 19,
-      "value": "\"Safety & Security\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4244,
-      "length": 28,
-      "value": "\"Please select sub category\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4303,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4344,
-      "length": 50,
-      "value": "\"Please select occupancy status for selected date\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4431,
-      "length": 22,
-      "value": "\"Venue Hire Agreement\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4485,
-      "length": 5,
-      "value": "\"Yes\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4521,
-      "length": 4,
-      "value": "\"No\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4557,
-      "length": 12,
-      "value": "\"All Venues\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4604,
-      "length": 15,
-      "value": "\"Venue Details\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4657,
-      "length": 31,
-      "value": "\"Services Provided for Enquiry\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4728,
-      "length": 33,
-      "value": "\"Equipments Provided for Enquiry\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4795,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4830,
-      "length": 7,
-      "value": "\"Venue\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4866,
-      "length": 8,
-      "value": "\"Status\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4909,
-      "length": 15,
-      "value": "\"All Enquiries\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4950,
-      "length": 5,
-      "value": "\"All\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 4992,
-      "length": 17,
-      "value": "\"Enquiry Details\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5042,
-      "length": 14,
-      "value": "\"Book a Venue\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5095,
-      "length": 19,
-      "value": "\"Selected Services\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5155,
-      "length": 21,
-      "value": "\"Selected Equipments\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5211,
-      "length": 13,
-      "value": "\"My Payments\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5250,
-      "length": 9,
-      "value": "\"Payment\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5298,
-      "length": 15,
-      "value": "\"Your Bookings\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5350,
-      "length": 16,
-      "value": "\"Submit Enquiry\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5403,
-      "length": 13,
-      "value": "\"My Bookings\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5448,
-      "length": 11,
-      "value": "\"View More\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5491,
-      "length": 11,
-      "value": "\"Confirmed\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5533,
-      "length": 10,
-      "value": "\"Declined\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5573,
-      "length": 9,
-      "value": "\"Booking\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5614,
-      "length": 14,
-      "value": "\"Book a Venue\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5675,
-      "length": 115,
-      "value": "\"A range of venues are available to book and use for the interested activities. Explore the details here and book!\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 5876,
-      "length": 42,
-      "value": "\"Please Login in order to process booking\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6004,
-      "length": 30,
-      "value": "\"Thanks for the Confirmation!\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6084,
-      "length": 46,
-      "value": "\"You may now select the services of interest!\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6177,
-      "length": 25,
-      "value": "\"Thanks for the Payment!\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6252,
-      "length": 27,
-      "value": "\"Payment successfully done\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6335,
-      "length": 21,
-      "value": "\"Thanks for Enquiry!\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6406,
-      "length": 92,
-      "value": "\"Your request has been submitted successfully. \n Please check your email for confirmation.\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6561,
-      "length": 12,
-      "value": "\"My Account\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6608,
-      "length": 9,
-      "value": "\"Profile\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6675,
-      "length": 9,
-      "value": "\"driving\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6714,
-      "length": 9,
-      "value": "\"walking\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6778,
-      "length": 15,
-      "value": "\"Welcome Back,\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6832,
-      "length": 7,
-      "value": "\"Email\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6881,
-      "length": 10,
-      "value": "\"Password\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 6962,
-      "length": 12,
-      "value": "\"First name\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7016,
-      "length": 11,
-      "value": "\"Last name\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7066,
-      "length": 7,
-      "value": "\"Email\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7118,
-      "length": 14,
-      "value": "\"Country Code\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7172,
-      "length": 15,
-      "value": "\"Mobile Number\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7229,
-      "length": 10,
-      "value": "\"Password\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7288,
-      "length": 18,
-      "value": "\"Confirm Password\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7343,
-      "length": 9,
-      "value": "\"Get OTP\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7390,
-      "length": 19,
-      "value": "\"Create My Account\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7476,
-      "length": 11,
-      "value": "\"Your Name\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7527,
-      "length": 15,
-      "value": "\"Mobile Number\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7581,
-      "length": 7,
-      "value": "\"Email\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7626,
-      "length": 6,
-      "value": "\"Type\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7677,
-      "length": 13,
-      "value": "\"Description\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7748,
-      "length": 10,
-      "value": "\"About Us\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7794,
-      "length": 16,
-      "value": "\"Privacy Policy\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7850,
-      "length": 21,
-      "value": "\"Terms and Coditions\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7903,
-      "length": 12,
-      "value": "\"User Guide\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 7973,
       "length": 50,
       "value": "\"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
       "kind": "StringLiteral",
-      "offset": 8088,
-      "length": 21,
-      "value": "\"My Service Requests\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 8174,
-      "length": 12,
-      "value": "\"Quick Tour\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 8252,
-      "length": 20,
-      "value": "\"Points of Interest\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/StringConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 8341,
+      "offset": 979,
       "length": 16,
       "value": "\"Match Schedule\""
     },
@@ -17016,69 +16218,6 @@
       "offset": 328,
       "length": 2,
       "value": "22"
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 41,
-      "value": "\"AIzaSyBDYWcB8XZZGZieUwAmtRC8rTGHpxP4VFo\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
-      "length": 74,
-      "value": "\"https:\/\/hcevents.z6.web.core.windows.net\/stadiums\/facts\/quick-facts.html\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 501,
-      "length": 93,
-      "value": "\"https:\/\/hcevents.blob.core.windows.net\/tree\/bnsfiles\/VHA76361_V1_2020_12_14_9_11_49_657.pdf\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 627,
-      "length": 26,
-      "value": "\"AAECAwQFBgcICQoLDA0ODw==\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 809,
-      "length": 65,
-      "value": "\"https:\/\/pay.aspirelogistics.qa\/Pages\/payment_confirmation.aspx?\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 916,
-      "length": 34,
-      "value": "\"https:\/\/www.aspirelogistics.qa\/?\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 987,
-      "length": 4,
-      "value": "\"61\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1021,
-      "length": 14,
-      "value": "\"BNSMobileApp\""
-    },
-    {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/URLConstant.swift",
-      "kind": "StringLiteral",
-      "offset": 1113,
-      "length": 38,
-      "value": "\"e8a500fe-c475-4eca-ab52-d2f56d5026e8\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Cards\/PlayerCardCollectionViewCell.swift",

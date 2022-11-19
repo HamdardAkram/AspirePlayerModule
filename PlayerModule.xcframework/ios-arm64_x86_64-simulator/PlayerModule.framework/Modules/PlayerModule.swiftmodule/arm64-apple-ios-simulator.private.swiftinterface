@@ -40,6 +40,7 @@ extension PlayerModule.PlayerProfileViewController : UIKit.UITableViewDataSource
 public protocol PlayerCardsDelegate : AnyObject {
   func didSelectedCard(card: PlayerModule.PlayerCard)
   func failedToDownload(error: Swift.Error)
+  func hideCardView()
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PlayerCards : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.PlayerCardsDelegate?
