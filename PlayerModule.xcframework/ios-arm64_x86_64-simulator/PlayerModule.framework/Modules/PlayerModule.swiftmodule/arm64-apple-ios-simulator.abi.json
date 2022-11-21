@@ -11651,14 +11651,14 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2166,
+      "offset": 2161,
       "length": 11,
       "value": "\"top_frame\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/Timeline\/TimelineGoalCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2453,
+      "offset": 2448,
       "length": 14,
       "value": "\"bottom_frame\""
     },
@@ -11818,106 +11818,113 @@
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1432,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1498,
+      "offset": 1527,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1599,
       "length": 10,
       "value": "\"timeline\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1591,
+      "offset": 1620,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1607,
+      "offset": 1636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1708,
       "length": 9,
       "value": "\"lineups\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1699,
+      "offset": 1728,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1715,
+      "offset": 1744,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1787,
+      "offset": 1816,
       "length": 5,
       "value": "\"h2h\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1803,
+      "offset": 1832,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1848,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1891,
+      "offset": 1920,
       "length": 7,
       "value": "\"stats\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 1938,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 1954,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1997,
+      "offset": 2026,
       "length": 9,
       "value": "\"referee\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2017,
+      "offset": 2046,
       "length": 2,
       "value": "\"\""
     },
@@ -12842,6 +12849,13 @@
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardCollectionViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2501,
       "length": 1,
       "value": "0"
     },
