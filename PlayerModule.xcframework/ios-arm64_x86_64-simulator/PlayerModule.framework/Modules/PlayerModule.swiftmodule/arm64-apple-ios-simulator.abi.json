@@ -11994,42 +11994,42 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 1557,
+      "offset": 1536,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "Array",
-      "offset": 1589,
+      "offset": 1568,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1673,
+      "offset": 1652,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1718,
+      "offset": 1697,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1756,
+      "offset": 1735,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailFooterView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1788,
+      "offset": 1767,
       "length": 1,
       "value": "0"
     },
@@ -13275,112 +13275,112 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48593,
+      "offset": 50039,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48630,
+      "offset": 50076,
       "length": 14,
       "value": "\"matchMinutes\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48670,
+      "offset": 50116,
       "length": 11,
       "value": "\"ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48707,
+      "offset": 50153,
       "length": 11,
       "value": "\"en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48759,
+      "offset": 50205,
       "length": 17,
       "value": "\"short_ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48808,
+      "offset": 50254,
       "length": 17,
       "value": "\"short_en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48850,
+      "offset": 50296,
       "length": 7,
       "value": "\"class\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48878,
+      "offset": 50324,
       "length": 6,
       "value": "\"icon\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48593,
+      "offset": 50039,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48630,
+      "offset": 50076,
       "length": 14,
       "value": "\"matchMinutes\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48670,
+      "offset": 50116,
       "length": 11,
       "value": "\"ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48707,
+      "offset": 50153,
       "length": 11,
       "value": "\"en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48759,
+      "offset": 50205,
       "length": 17,
       "value": "\"short_ar_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48808,
+      "offset": 50254,
       "length": 17,
       "value": "\"short_en_status\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48850,
+      "offset": 50296,
       "length": 7,
       "value": "\"class\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Model\/PlayerModel.swift",
       "kind": "StringLiteral",
-      "offset": 48878,
+      "offset": 50324,
       "length": 6,
       "value": "\"icon\""
     },
