@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		PrMJKtsbP1ZuYOec7PPG7BaIMvw=
+		Y+DfWnNS05JcUhncRFTOtfdbu9I=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>HomeMatchCollectionViewCell.nib</key>
 		<data>
-		VQ4pV1YH3W0RwAXwFfW2WzqR3xs=
+		vfwUuD3JKe3ruIx6xpaelbUT9D4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>MatchDetailHeaderView.nib</key>
 		<data>
-		h5ci29ypdzQD++DkmXiKOrldQlI=
+		XFr3xtA7RfjTuaiEsSF833O2HBk=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jbdx4WLRRr5AosPd2CJKLMt8ZNw=
+		/Hh1LE6TT/1SwMYOlrviWnE/8Xs=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V5nQ9q/pukcSGHJwBkUUur+WWsY=
+		bF+R7v/JlC90C0kXAmxgh+NH1XE=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jbdx4WLRRr5AosPd2CJKLMt8ZNw=
+		/Hh1LE6TT/1SwMYOlrviWnE/8Xs=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VxqjTI5G+9N5YFj+nPNuptyVxIE=
+		1v3AJPvMgzEM2VdDrnpnCww6pK0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -370,11 +370,11 @@
 		</data>
 		<key>ScorerCollectionViewCell.nib</key>
 		<data>
-		pwBE2lM6dxO+JYmI+mEwdJj6LII=
+		1abfgCRhATiNdz63ahWgC94DoH8=
 		</data>
 		<key>StandingHeaderView.nib</key>
 		<data>
-		9npnO19N+6ewn47iiaGyWCw/Pwk=
+		TDDgfNUauGiMt+Ok3stnvgMWJnM=
 		</data>
 		<key>StandingsCollectionViewCell.nib</key>
 		<data>
@@ -554,7 +554,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N3ScVEL9KRKkezVJqXq0/OgAgy8UXSWylmd1Pyl6FvI=
+			pBbowNj9dt71//fdtoU51s1cPBrbntXpw2SR+qVI33Y=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -799,7 +799,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9LXcIFLQA6wBp/YE5tMlOGceZlN/cC6V+eOmGwCE+K4=
+			YIwJ2AlQdVVBazAVGy2TbwvH6cdSkrcYjmsOnvxEabI=
 			</data>
 		</dict>
 		<key>LineUpCollectionViewCell.nib</key>
@@ -827,14 +827,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UohqbiZscCWQb+IA3b8tAYezK0kHGCAQopByT4HAXcM=
+			DznDtrdCbPRlWdzmq8kHpE/mtqf1gu7ltJCpGKrIcWY=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnyLmrQmGo6GkpRtU7hakZ60VydSpo3yD9VXMf9GEZ8=
+			QFtjcrGlvcM0rxSPaeREdonlyUKiITJz7KsOLEFt6wk=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -862,14 +862,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qykwRJgXtiCAQbKnd0R6bMFAU/JojaPZX1VSUMDPYwg=
+			EdyQSAzqzinitFt9/Xg9NL/Y7Wn6hmkr/UHgBfBJAzQ=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnyLmrQmGo6GkpRtU7hakZ60VydSpo3yD9VXMf9GEZ8=
+			QFtjcrGlvcM0rxSPaeREdonlyUKiITJz7KsOLEFt6wk=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -897,7 +897,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ktgBUl+WePqjbsWUmsJZCxNwqN87ZTcvan9+t7k7fO0=
+			E9wff2Q8Dl4NAI0ikyCjG2U0UlLikjEfWnAr+DngN0k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1177,14 +1177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FpyC4wROuSWcEhArHCstoidRBd3EwTHRqpMNYtifofM=
+			ZC97ygez0+H+jS3ERtgI0zdyvWuzWbEg4Y43Gmzc9Sc=
 			</data>
 		</dict>
 		<key>StandingHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0FAlgXqj2xQs5+RKBCBE4YryflMPgZwJD1xvvq5hLVc=
+			OpXrYYOGfICPo4WUYI5sEUJCHm3hdNGIlwniebS7lQQ=
 			</data>
 		</dict>
 		<key>StandingsCollectionViewCell.nib</key>

@@ -8524,7 +8524,7 @@
       "kind": "StringLiteral",
       "offset": 502,
       "length": 9,
-      "value": "\"#1D65B1\""
+      "value": "\"#3D3F50\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Utitlites\/Constant\/NumberConstant.swift",
@@ -11931,63 +11931,63 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 763,
       "length": 11,
       "value": "\"top_frame\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1066,
       "length": 14,
       "value": "\"bottom_frame\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 1325,
+      "offset": 1370,
       "length": 13,
       "value": "\"color_image\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1737,
+      "offset": 1782,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1835,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1921,
+      "offset": 1966,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1975,
+      "offset": 2020,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2290,
+      "offset": 2335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Biography\/HomeMatchCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2342,
+      "offset": 2387,
       "length": 1,
       "value": "4"
     },
