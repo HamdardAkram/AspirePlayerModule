@@ -66,6 +66,7 @@ extension PlayerModule.PlayerCards : UIKit.UICollectionViewDataSource, UIKit.UIC
   @_Concurrency.MainActor(unsafe) public var matchId: Swift.String
   @_Concurrency.MainActor(unsafe) public var matchObject: PlayerModule.Match!
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public class func viewController() -> PlayerModule.MatchDetailViewController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -160,6 +161,7 @@ public protocol TournamentDetailViewControllerDelegate : AnyObject {
   func setPlayerName(englishName: Swift.String, arabicName: Swift.String, playerVC: PlayerModule.PlayerProfileViewController)
   func setTeamName(englishName: Swift.String, arabicName: Swift.String)
   func removeTeamName()
+  func setMatchDetailView(title: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TournamentDetailViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: PlayerModule.TournamentDetailViewControllerDelegate?

@@ -1728,6 +1728,38 @@
           },
           {
             "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PlayerModule@objc(cs)MatchDetailViewController(im)viewDidAppear:",
+            "mangledName": "$s12PlayerModule25MatchDetailViewControllerC13viewDidAppearyySbF",
+            "moduleName": "PlayerModule",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "viewController",
             "printedName": "viewController()",
             "children": [
@@ -4574,6 +4606,33 @@
             "declKind": "Func",
             "usr": "s:12PlayerModule38TournamentDetailViewControllerDelegateP14removeTeamNameyyF",
             "mangledName": "$s12PlayerModule38TournamentDetailViewControllerDelegateP14removeTeamNameyyF",
+            "moduleName": "PlayerModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.TournamentDetailViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : PlayerModule.TournamentDetailViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMatchDetailView",
+            "printedName": "setMatchDetailView(title:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PlayerModule38TournamentDetailViewControllerDelegateP08setMatchdE05titleySS_tF",
+            "mangledName": "$s12PlayerModule38TournamentDetailViewControllerDelegateP08setMatchdE05titleySS_tF",
             "moduleName": "PlayerModule",
             "genericSig": "<τ_0_0 where τ_0_0 : PlayerModule.TournamentDetailViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : PlayerModule.TournamentDetailViewControllerDelegate>",
@@ -11614,6 +11673,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Cards\/PlayerCards.swift",
       "kind": "BooleanLiteral",
       "offset": 429,
@@ -11665,7 +11731,7 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/MatchDetail\/MatchDetailViewController.swift",
       "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 505,
       "length": 2,
       "value": "\"\""
     },
@@ -12960,315 +13026,315 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1227,
+      "offset": 1244,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1709,
+      "offset": 1726,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1748,
+      "offset": 1765,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 1897,
       "length": 11,
       "value": "\"biography\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 1978,
       "length": 11,
       "value": "\"biography\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1983,
+      "offset": 2000,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1999,
+      "offset": 2016,
       "length": 7,
       "value": "\"stats\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 2093,
       "length": 7,
       "value": "\"stats\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2111,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2127,
       "length": 7,
       "value": "\"teams\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2187,
+      "offset": 2204,
       "length": 7,
       "value": "\"teams\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2205,
+      "offset": 2222,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2221,
+      "offset": 2238,
       "length": 10,
       "value": "\"features\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2318,
       "length": 10,
       "value": "\"features\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2339,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2338,
+      "offset": 2355,
       "length": 13,
       "value": "\"teamagainst\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2421,
+      "offset": 2438,
       "length": 14,
       "value": "\"team_against\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2463,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2462,
+      "offset": 2479,
       "length": 7,
       "value": "\"goals\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 2556,
       "length": 7,
       "value": "\"goals\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2557,
+      "offset": 2574,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2573,
+      "offset": 2590,
       "length": 9,
       "value": "\"assists\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2652,
+      "offset": 2669,
       "length": 9,
       "value": "\"assists\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2672,
+      "offset": 2689,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2688,
+      "offset": 2705,
       "length": 9,
       "value": "\"coaches\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2767,
+      "offset": 2784,
       "length": 9,
       "value": "\"coaches\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2803,
+      "offset": 2820,
       "length": 5,
       "value": "\"h2h\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2878,
+      "offset": 2895,
       "length": 5,
       "value": "\"h2h\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2894,
+      "offset": 2911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 2927,
       "length": 9,
       "value": "\"matches\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 3006,
       "length": 9,
       "value": "\"matches\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3025,
+      "offset": 3042,
       "length": 8,
       "value": "\"titles\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3103,
+      "offset": 3120,
       "length": 8,
       "value": "\"titles\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3122,
+      "offset": 3139,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3138,
+      "offset": 3155,
       "length": 11,
       "value": "\"transfers\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3219,
+      "offset": 3236,
       "length": 11,
       "value": "\"transfers\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3241,
+      "offset": 3258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3312,
       "length": 11,
       "value": "\"ALL STATS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3319,
+      "offset": 3336,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3330,
+      "offset": 3347,
       "length": 10,
       "value": "\"NT STATS\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3353,
+      "offset": 3370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/PlayerProfileHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 3364,
+      "offset": 3381,
       "length": 12,
       "value": "\"CLUB STATS\""
     },
@@ -13674,21 +13740,21 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
       "kind": "Array",
-      "offset": 981,
+      "offset": 1024,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1074,
+      "offset": 1117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Matches\/TournamentDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1121,
+      "offset": 1164,
       "length": 1,
       "value": "1"
     },
