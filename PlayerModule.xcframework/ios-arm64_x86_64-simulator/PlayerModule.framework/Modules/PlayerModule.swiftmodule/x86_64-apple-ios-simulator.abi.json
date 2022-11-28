@@ -12893,91 +12893,203 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 624,
+      "offset": 479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 674,
+      "offset": 529,
       "length": 4,
       "value": "17.5"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 736,
+      "offset": 591,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1548,
+      "offset": 1192,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1671,
+      "offset": 1315,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "Array",
+      "offset": 1350,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "Array",
+      "offset": 1384,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1711,
+      "offset": 1424,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1826,
+      "offset": 1539,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1579,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 1876,
+      "offset": 1677,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Dictionary",
-      "offset": 1925,
+      "offset": 1726,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "Array",
-      "offset": 2046,
+      "offset": 1889,
       "length": 16,
       "value": "[\"\", \"\", \"\", \"\"]"
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2107,
+      "offset": 1950,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Stats\/StatsCollectionViewCell.swift",
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1990,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 599,
-      "length": 14,
-      "value": "\"bottom_frame\""
+      "offset": 2078,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 7,
+      "value": "\"teams\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2168,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2256,
+      "length": 9,
+      "value": "\"players\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2292,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2364,
+      "length": 9,
+      "value": "\"teamH2H\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2384,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2472,
+      "length": 7,
+      "value": "\"stats\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerList\/PlayerListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2490,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/PlayerProfile\/Stats\/StatsCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1081,
+      "offset": 904,
       "length": 1,
       "value": "7"
     },
@@ -14860,7 +14972,7 @@
     {
       "filePath": "\/Users\/muhammad.akram\/Desktop\/Akram\/PlayerModule\/PlayerModule\/Views\/Scoreboard\/ScoreboardBanner.swift",
       "kind": "Array",
-      "offset": 1644,
+      "offset": 1772,
       "length": 2,
       "value": "[]"
     },
