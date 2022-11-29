@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		83cFWhuWvX+iyla1qNcdRcsf57Q=
+		8v763YdwEhAjTSircusJ49uOMF4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U+FQeAHmIWt+qS9hXSiWpTSaJbE=
+		udJunVrV2ZJLKyg4bo66v0wlLEI=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		83cFWhuWvX+iyla1qNcdRcsf57Q=
+		8v763YdwEhAjTSircusJ49uOMF4=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5cpWnP5Hh7z7XdqHOPUPuZ63nu0=
+		HIWyKoRE4c7bujGAA9UdeRJqEyA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -362,7 +362,7 @@
 		</data>
 		<key>ScoreboardBanner.nib</key>
 		<data>
-		j5Q8wNzGikn1bLaxbtEVmslKZGk=
+		F6JILlvCT1bQYSZxFc7des1js7A=
 		</data>
 		<key>ScoreboardCollectionViewCell.nib</key>
 		<data>
@@ -834,7 +834,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMbGR14K5xWsni7Rotdi0v8SNxxWaZgAinKC72j1wJQ=
+			yoQHTkeytwau+JIUrH2T7gv3MnJyCyJSYwM0UpIrrMM=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -862,14 +862,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DeH2JqoKopbCD9oAGItY2jOm1mZjqzUqgLe/ZhRfpS8=
+			Kysykvel92V+CSBlrIcGjnQ+UPGCQtohPo0vKaKWQdE=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMbGR14K5xWsni7Rotdi0v8SNxxWaZgAinKC72j1wJQ=
+			yoQHTkeytwau+JIUrH2T7gv3MnJyCyJSYwM0UpIrrMM=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -897,7 +897,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MSFS1hvXNGFg2I4CidEj/cjNidUEX3hXrw3oTyX1is=
+			gPYml8PZtp8e94L1PUk2UvjCIcpbyKRe+g2F68m5nv8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1163,7 +1163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YqyXQQvKXDqFNyPYmF8c0jbcFr96znX/UycpHZ/diek=
+			5Lzmx+9ImocLvbXRLKjQdANDoOTkHvSdXxjREmhtpwM=
 			</data>
 		</dict>
 		<key>ScoreboardCollectionViewCell.nib</key>
