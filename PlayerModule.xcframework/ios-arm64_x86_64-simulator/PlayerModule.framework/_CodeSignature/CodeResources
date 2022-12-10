@@ -150,7 +150,7 @@
 		</data>
 		<key>HomeMatchCollectionViewCell.nib</key>
 		<data>
-		5gnXVMRug6YySl2C5+KUFQsVz64=
+		QRCxm3I0ynh2b7lNJcOGwYc14qg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7KeVZXFQxeRkoKyMSu2ww6PG7iI=
+		vmNISh0iGRmwu9nesRZGitnnHiM=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wg8Tq5qY/WDWN9yUSw5la5zEYdk=
+		TRii0Y5HYMFGrc1Y731mOVsytLA=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7KeVZXFQxeRkoKyMSu2ww6PG7iI=
+		vmNISh0iGRmwu9nesRZGitnnHiM=
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j3KIYKShJPt9Pz3suE1jrlX7uDk=
+		Os576jTz8bIwdzWXsR67A8cdMwI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -799,7 +799,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9NIF6YiaRjDGcJH9GSlHKwybXNK6iyQW7yIJ5iBOWY=
+			0I0o02i8Z8fm6w6bRLkxQTx/wXD620MYTMDAba4Dd0M=
 			</data>
 		</dict>
 		<key>LineUpCollectionViewCell.nib</key>
@@ -834,7 +834,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJUtdO+wb1fAqs+fNFwqW8rAmFE6Ry+mKQDWkARyQ+A=
+			Ix/MVHek9nQzh0YOxzcBaR2/jr5PwtxKjonTUfUfiPc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -862,14 +862,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b6vrX7eFYDnDQ3w30iVD4cSsdzp45gK1tq0dnEJjAlg=
+			DUSDdBnPD/J2w/HUpo5Wof5GZcDgwcUq7NHFCTzPmjg=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJUtdO+wb1fAqs+fNFwqW8rAmFE6Ry+mKQDWkARyQ+A=
+			Ix/MVHek9nQzh0YOxzcBaR2/jr5PwtxKjonTUfUfiPc=
 			</data>
 		</dict>
 		<key>Modules/PlayerModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -897,7 +897,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7nrBUT0nBrq1tWxsnfslih6mWV5j2EtTqq/wwjyEwZ0=
+			vwLr/X/IpbSM5Z4DzH0mQVRKzghUzqBq+dMzQ+UVMgc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
